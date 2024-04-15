@@ -174,3 +174,6 @@ analysis/evaluation/*.csv
 analysis/evaluation/*.pdf
 data/repos/copies
 notebooks/
+
+# CUSTOM
+wd/
