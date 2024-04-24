@@ -177,3 +177,5 @@ notebooks/
 
 # CUSTOM
 wd/
+logs/
+testbed/
