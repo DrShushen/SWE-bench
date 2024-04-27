@@ -18,7 +18,19 @@
 6. To log in with SSH:
     - Run `docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' swecont` to get the container's IP address.
     - Log in with `ssh user@<container_ip>`, dummy password is `mypass`. 
+    - You can use this container with VSCode remote now.
 
+To set uo your Git inside the container:
+- Connect to container via SSH as explained above.
+- Set up git username and email:
+    ```bash
+    git config --global user.name "FIRST_NAME LAST_NAME"
+    git config --global user.email "MY_NAME@example.com"
+    ```
+- If you use SSH keys for authenticating GitHub, copy your keys from host machine into the container, along the lines of:
+    ```bash
+    scp ~/.ssh/id_rsa* user@<container_ip>:/home/user/.ssh/
+    ```
 
 ---
 ### Other notes:
