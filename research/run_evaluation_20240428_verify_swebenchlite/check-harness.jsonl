@@ -1,0 +1,1 @@
+{"instance_id": "astropy__astropy-11693", "model_name_or_path": "gold", "model_patch": "diff --git a/new.txt b/new.txt\nnew file mode 100644\n--- /dev/null\n+++ b/new.txt\n@@ -0,0 +1 @@\n+new\n"}
