@@ -179,3 +179,4 @@ notebooks/
 wd/
 logs/
 testbed/
+!research/**/*.jsonl
