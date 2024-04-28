@@ -10,6 +10,23 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt install -y wget curl git vim nano tmux inxi htop build-essential python3-pip python3-dev openssh-server fio \
     bonnie++ sysbench rsync locales locales-all keyutils
 
+# Enable SSH.
+# See: https://www.cherryservers.com/blog/ssh-into-docker-container
+# And: https://circleci.com/blog/ssh-into-docker-container/
+# After running the container, you can find its IP using:
+# docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name>
+RUN mkdir /var/run/sshd
+RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+EXPOSE 22
+
+# Set up user:
+RUN apt update && apt install -y sudo 
+RUN useradd user -m -G sudo -s /bin/bash
+RUN passwd -d user
+USER user
+RUN touch /home/user/.bashrc
+RUN touch /home/user/.bash_profile
+
 # Conda.
 RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
     bash ~/miniconda.sh -b -p ~/miniconda && \
@@ -19,8 +36,8 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86
 	conda update -n base conda -y
 
 # Make bash nicer.
-RUN sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' ~/.bashrc \
-    echo "source ~/.bashrc" | tee -a ~/.bash_profile \
+RUN sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' ~/.bashrc ; \
+    echo "source ~/.bashrc" > ~/.bash_profile ; \
     source ~/.bashrc
 
 # Make tmux nicer.
@@ -44,7 +61,7 @@ run ~/.tmux/plugins/tpm/tpm' > ~/.tmux.conf
 
 # Clone SWE-Bench fork.
 # This is just to facilitate pip install -e . in the next step.
-RUN mkdir /home/DrShushen && cd /home/DrShushen && \
+RUN mkdir ~/DrShushen && cd ~/DrShushen && \
     GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" \
     git clone https://github.com/DrShushen/SWE-bench.git
 
@@ -57,16 +74,11 @@ RUN eval "$(~/miniconda/bin/conda shell.bash hook)" && conda init && source ~/.b
     conda run -n base pip install \
         datasets tenacity anthropic openai tiktoken beautifulsoup4 chardet ghapi GitPython python-dotenv \
         requests rich "transformers>=4.34.0" tqdm && \
-    cd /home/DrShushen/SWE-bench && conda run -n base pip install -e .
+    cd ~/DrShushen/SWE-bench && conda run -n base pip install -e .
 
 # Enable SSH.
-# See: https://www.cherryservers.com/blog/ssh-into-docker-container
-# And: https://circleci.com/blog/ssh-into-docker-container/
-# After running the container, you can find its IP using:
-# docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name>
-RUN mkdir /var/run/sshd
-RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
-RUN useradd -m -s /bin/bash user
-RUN echo "user:mypass" | chpasswd
-EXPOSE 22
+# 1. Enable password auth on the `user` account so that SSH auth works.
+RUN echo "user:mypass" | sudo chpasswd
+# 2. Start SSH server using root:
+USER root
 CMD ["/usr/sbin/sshd", "-D"]
