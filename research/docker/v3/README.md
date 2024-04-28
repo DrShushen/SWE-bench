@@ -36,7 +36,7 @@ To set uo your Git inside the container:
 
 To install SWE-bench:
 - share it with the container using `-v` as explained above,
-- `conda activate swe-bench` in the container
+- Make sure you're in conda `base` environment in the container
 - `pip install -e .` in the SWE-Bench repo root.
 
 ---
