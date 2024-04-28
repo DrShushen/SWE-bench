@@ -6,11 +6,11 @@
     - Config: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuration
     - Use: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html#using-cdi-with-non-cdi-enabled-runtimes
 3. Download my docker image:
-    - `docker pull drshushen/swe-bench:v2`
+    - `docker pull drshushen/swe-bench:v3`
 4. Run the container:
-    - `docker run -it -p 2222:22 --name swecont --rm drshushen/swe-bench:v2`
+    - `docker run -it -p 2222:22 --name swecont --rm drshushen/swe-bench:v3`
     - If you had docker installed with nvidia container toolkit, you can pass the GPU to the container with the extra flag `--gpus all`.
-    - If you want to mount a directory to the container, you can use the `-v` flag. For example, to mount the current directory to the container, you can use `docker run -it --rm -v $(pwd):/mnt drshushen/swe-bench:v2`. You will then find it in the container at `/mnt`. It will be synchronized with the host directory.
+    - If you want to mount a directory to the container, you can use the `-v` flag. For example, to mount the current directory to the container, you can use `docker run -it --rm -v $(pwd):/mnt drshushen/swe-bench:v3`. You will then find it in the container at `/mnt`. It will be synchronized with the host directory.
     - To run in daemon mode, change the `-it` flag to `-d`.
 5. You are now in the container. You can run the SWE-bench code under the `conda` `base` environment, e.g. as described
     [here](https://github.com/DrShushen/SWE-bench/blob/main/tutorials/evaluation.md)
@@ -31,6 +31,13 @@ To set uo your Git inside the container:
     ```bash
     scp ~/.ssh/id_rsa* user@<container_ip>:/home/user/.ssh/
     ```
+
+**NOTE**
+
+To install SWE-bench:
+- share it with the container using `-v` as explained above,
+- `conda activate swe-bench` in the container
+- `pip install -e .` in the SWE-Bench repo root.
 
 ---
 ### Other notes:

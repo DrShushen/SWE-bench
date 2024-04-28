@@ -60,22 +60,15 @@ run ~/.tmux/plugins/tpm/tpm' > ~/.tmux.conf
 
 # --- SWE-Bench specific ---
 
-# Clone SWE-Bench fork.
-# This is just to facilitate pip install -e . in the next step.
-# RUN mkdir ~/DrShushen && cd ~/DrShushen && \
-#     GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" \
-#     git clone https://github.com/DrShushen/SWE-bench.git
-
 # Prepare the conda environment.
-# Use `base` directly - seems to be the most reliable way to make this work.
 # Get some dependencies, then install SWE-Bench in editable mode.
-# RUN eval "$(~/miniconda/bin/conda shell.bash hook)" && conda init && source ~/.bashrc && \
-#     conda install -n base python=3.9 -y && \
-#     conda run -n base pip install -U pip && \
-#     conda run -n base pip install \
-#         datasets tenacity anthropic openai tiktoken beautifulsoup4 chardet ghapi GitPython python-dotenv \
-#         requests rich "transformers>=4.34.0" tqdm && \
-#     cd ~/DrShushen/SWE-bench && conda run -n base pip install -e .
+RUN eval "$(~/miniconda/bin/conda shell.bash hook)" && conda init && source ~/.bashrc && \
+    conda create -n swe-bench python=3.9 -y && \
+    conda run -n swe-bench pip install -U pip && \
+    conda run -n swe-bench pip install \
+        datasets tenacity anthropic openai tiktoken beautifulsoup4 chardet ghapi GitPython python-dotenv \
+        requests rich "transformers>=4.34.0" tqdm && \
+    conda install -n swe-bench "conda=23.10.0"
 
 # Enable SSH.
 # 1. Enable password auth on the `user` account so that SSH auth works.
