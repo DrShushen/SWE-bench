@@ -684,6 +684,7 @@ class TaskEnvContextManager:
             f"temp_{self.instance[KEY_INSTANCE_ID]}_{patch_type}.patch",
         )
         with open(patch_path, "w") as f:
+            # print("---------- PATCH ----------\n", patch, "\n---------- PATCH ----------")
             f.write(patch)
 
         # Restore test files before applying if patch_type is 'test'
