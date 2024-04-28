@@ -78,6 +78,7 @@ class ExecWrapper:
             else:
                 self.logger.write(f"Command: {cmd}", level=DEBUG)
             combined_args = {**self.subprocess_args, **kwargs}
+            # print("combined_args", combined_args)
             self.logger.write(f"Subprocess args: {json.dumps(combined_args)}", level=DEBUG)
             output = subprocess.run(cmd, **combined_args)
             self.logger.write(f"Std. Output:\n{output.stdout}", level=DEBUG)
@@ -518,13 +519,23 @@ class TaskEnvContextManager:
         )
         self.timeout = timeout
 
+        # --------------------------------------------------------------------------------------------------------------
+        # HACK: Ensure that conda bin is in PATH - for reasons unclear, under some circumstances it is not.
+        FORCED_CONDA_BIN = "/home/user/miniconda/bin/"
+        PATH = os.environ.get("PATH", "")
+        if FORCED_CONDA_BIN not in PATH:
+            PATH = f"{FORCED_CONDA_BIN}:{PATH}"
+        # HACK: end.
+        # Also remove `"PATH": PATH` from `"env": {"CONDA_PKGS_DIRS": self.conda_cache_dir, "PATH": PATH}` below!
+        # --------------------------------------------------------------------------------------------------------------
+
         self.exec = ExecWrapper(
             subprocess_args={
                 "check": True,
                 "shell": False,
                 "capture_output": False,
                 "text": True,
-                "env": {"CONDA_PKGS_DIRS": self.conda_cache_dir},
+                "env": {"CONDA_PKGS_DIRS": self.conda_cache_dir, "PATH": PATH},
                 "stdout": subprocess.PIPE,
                 "stderr": subprocess.STDOUT,
             },
