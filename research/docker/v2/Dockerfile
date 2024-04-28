@@ -26,6 +26,7 @@ RUN passwd -d user
 USER user
 RUN touch /home/user/.bashrc
 RUN touch /home/user/.bash_profile
+RUN mkdir /home/user/.ssh
 
 # Conda.
 RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
