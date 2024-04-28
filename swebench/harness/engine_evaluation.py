@@ -174,7 +174,11 @@ def main(args):
     ]
 
     if args.num_workers == 1:
+        #try:
         setup_testbed(data_groups[0])
+        # except Exception as e:
+        #     print(f"------------------------>\nError: {e}")
+        #     pass
         return
 
     pool = Pool(processes=args.num_workers)
