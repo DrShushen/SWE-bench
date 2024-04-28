@@ -1,0 +1,433 @@
+[pydata__xarray__0.12] [pydata__xarray-5233] Task Metadata:
+	- Instance ID: pydata__xarray-5233
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/pydata__xarray__0.12
+	- Virtual Env.: pydata__xarray__0.12
+	- Evaluation Model: gold 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git restore . 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git reset HEAD . 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git clean -fdx 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git -c advice.detachedHead=false checkout 2694046c748a51125de6d460073635f1d789958e 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+HEAD is now at 2694046c Revert "Single matplotlib import (#5794)" (#6064)
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Reset task environment to 2694046c748a51125de6d460073635f1d789958e 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/temp_pydata__xarray-5233_pred_try.patch 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+Checking patch xarray/__init__.py...
+Checking patch xarray/coding/calendar_ops.py...
+Checking patch xarray/coding/cftime_offsets.py...
+Checking patch xarray/coding/times.py...
+Checking patch xarray/core/accessor_dt.py...
+Checking patch xarray/core/dataarray.py...
+Checking patch xarray/core/dataset.py...
+Applied patch xarray/__init__.py cleanly.
+Applied patch xarray/coding/calendar_ops.py cleanly.
+Applied patch xarray/coding/cftime_offsets.py cleanly.
+Applied patch xarray/coding/times.py cleanly.
+Applied patch xarray/core/accessor_dt.py cleanly.
+Applied patch xarray/core/dataarray.py cleanly.
+Applied patch xarray/core/dataset.py cleanly.
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/temp_pydata__xarray-5233_pred_try.patch 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+Checking patch xarray/core/dataset.py...
+Checking patch xarray/core/dataarray.py...
+Checking patch xarray/core/accessor_dt.py...
+Checking patch xarray/coding/times.py...
+Checking patch xarray/coding/cftime_offsets.py...
+Checking patch xarray/coding/calendar_ops.py...
+Checking patch xarray/__init__.py...
+Applied patch xarray/core/dataset.py cleanly.
+Applied patch xarray/core/dataarray.py cleanly.
+Applied patch xarray/core/accessor_dt.py cleanly.
+Applied patch xarray/coding/times.py cleanly.
+Applied patch xarray/coding/cftime_offsets.py cleanly.
+Applied patch xarray/coding/calendar_ops.py cleanly.
+Applied patch xarray/__init__.py cleanly.
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pydata__xarray__0.12] [pydata__xarray-5233] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/bin/activate pydata__xarray__0.12 && echo 'activate successful' && pip install -e . 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/bin/activate pydata__xarray__0.12 && echo 'activate successful' && pip install -e . 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/pydata__xarray__0.12
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.18 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages (from xarray==0.20.3.dev19+g2694046c) (1.25.2)
+Requirement already satisfied: pandas>=1.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages (from xarray==0.20.3.dev19+g2694046c) (1.5.3)
+Requirement already satisfied: python-dateutil>=2.8.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages (from pandas>=1.1->xarray==0.20.3.dev19+g2694046c) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages (from pandas>=1.1->xarray==0.20.3.dev19+g2694046c) (2023.3)
+Requirement already satisfied: six>=1.5 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages (from python-dateutil>=2.8.1->pandas>=1.1->xarray==0.20.3.dev19+g2694046c) (1.16.0)
+Building wheels for collected packages: xarray
+  Building editable for xarray (pyproject.toml): started
+  Building editable for xarray (pyproject.toml): finished with status 'done'
+  Created wheel for xarray: filename=xarray-0.20.3.dev19+g2694046c-0.editable-py3-none-any.whl size=8855 sha256=363a340938c92bb60042d51a8f034a6e831be73095ccc092a350665c09f6e41e
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9__xzxa4/wheels/3f/24/5b/69f4aa287d78e2e7edf818cac750c895d02d619d530daae3ca
+Successfully built xarray
+Installing collected packages: xarray
+Successfully installed xarray-0.20.3.dev19+g2694046c
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Installation successful 
+
+>>>>> Init Succeeded
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/temp_pydata__xarray-5233_pred.patch 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+Checking patch xarray/__init__.py...
+Checking patch xarray/coding/calendar_ops.py...
+Checking patch xarray/coding/cftime_offsets.py...
+Checking patch xarray/coding/times.py...
+Checking patch xarray/core/accessor_dt.py...
+Checking patch xarray/core/dataarray.py...
+Checking patch xarray/core/dataset.py...
+Applied patch xarray/__init__.py cleanly.
+Applied patch xarray/coding/calendar_ops.py cleanly.
+Applied patch xarray/coding/cftime_offsets.py cleanly.
+Applied patch xarray/coding/times.py cleanly.
+Applied patch xarray/core/accessor_dt.py cleanly.
+Applied patch xarray/core/dataarray.py cleanly.
+Applied patch xarray/core/dataset.py cleanly.
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git restore xarray/tests/test_accessor_dt.py 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git restore xarray/tests/test_cftime_offsets.py 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git restore xarray/tests/test_coding_times.py 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/temp_pydata__xarray-5233_test.patch 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+Checking patch xarray/tests/test_accessor_dt.py...
+Checking patch xarray/tests/test_calendar_ops.py...
+Checking patch xarray/tests/test_cftime_offsets.py...
+Checking patch xarray/tests/test_coding_times.py...
+Applied patch xarray/tests/test_accessor_dt.py cleanly.
+Applied patch xarray/tests/test_calendar_ops.py cleanly.
+Applied patch xarray/tests/test_cftime_offsets.py cleanly.
+Applied patch xarray/tests/test_coding_times.py cleanly.
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 0 
+[pydata__xarray__0.12] [pydata__xarray-5233] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/bin/activate pydata__xarray__0.12 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider xarray/tests/test_accessor_dt.py xarray/tests/test_calendar_ops.py xarray/tests/test_cftime_offsets.py xarray/tests/test_coding_times.py;
+[pydata__xarray__0.12] [pydata__xarray-5233] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/bin/activate pydata__xarray__0.12 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider xarray/tests/test_accessor_dt.py xarray/tests/test_calendar_ops.py xarray/tests/test_cftime_offsets.py xarray/tests/test_coding_times.py 
+[pydata__xarray__0.12] [pydata__xarray-5233] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pydata__xarray__0.12] [pydata__xarray-5233] Std. Output:
+activate successful
+============================= test session starts ==============================
+collected 763 items / 2 skipped
+
+xarray/tests/test_accessor_dt.py .............................ssssssssss [  5%]
+ssssssssssssssssssss............ssssssssssssssssssssssssssssssssssssssss [ 14%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 23%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 33%]
+sssssssssssssssssssssssssssssssssss                                      [ 38%]
+xarray/tests/test_coding_times.py ssssssssssssssssssssssssssssssssssssss [ 42%]
+sssssssssssssssssssssssssssssssssssssssssssssss.ssssssssssssssssssssssss [ 52%]
+sssssssssssssssssssssssssssssssssssss..........ssssssssssssssssssssssss. [ 61%]
+..............ssss..........sssssssssssssssssssssssssssssssssssss..sssss [ 71%]
+..ssssssssssFFFsssssssssssssssssssssssssssssssssssssssssssssssssssFFF... [ 80%]
+.....................sssssssss.......................................... [ 90%]
+.......sssssssssssssssssssssssssssssssssssssssssssssssss.......sssssss.. [ 99%]
+.ss                                                                      [100%]
+
+=============================== warnings summary ===============================
+xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_isocalendar[year-year]
+xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_isocalendar[week-week]
+xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_isocalendar[weekday-day]
+  /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/pydata__xarray__0.12/xarray/tests/test_accessor_dt.py:100: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+    expected = pd.Int64Index(getattr(self.times.isocalendar(), pandas_field))
+
+xarray/tests/test_coding_times.py: 10 warnings
+  /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages/pandas/core/arrays/timedeltas.py:908: RuntimeWarning: invalid value encountered in cast
+    base = data.astype(np.int64)
+
+xarray/tests/test_coding_times.py: 10 warnings
+  /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpkydckp22/miniconda3/lib/python3.9/site-packages/pandas/core/arrays/timedeltas.py:912: RuntimeWarning: invalid value encountered in cast
+    data = (base * m + (frac * m).astype(np.int64)).view("timedelta64[ns]")
+
+xarray/tests/test_coding_times.py::test_cf_timedelta[timedeltas6-None-numbers6]
+xarray/tests/test_coding_times.py::test_cf_timedelta[NaT-days-nan]
+xarray/tests/test_coding_times.py::test_cf_timedelta[timedeltas9-days-numbers9]
+  /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.12/tmpw2w_bd6q/pydata__xarray__0.12/xarray/coding/times.py:576: RuntimeWarning: invalid value encountered in cast
+    int_num = np.array(num, dtype=np.int64)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[year]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[month]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[day]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[hour]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[minute]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[second]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[microsecond]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[nanosecond]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[week]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[weekofyear]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[dayofweek]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[weekday]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[dayofyear]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[quarter]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[date]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[time]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_month_start]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_month_end]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_quarter_start]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_quarter_end]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_year_start]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_year_end]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_field_access[is_leap_year]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_isocalendar[year-year]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_isocalendar[week-week]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_isocalendar[weekday-day]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_calendar
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_strftime
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_not_datetime_type
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_seasons
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_accessor_method[floor-D]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_accessor_method[ceil-D]
+PASSED xarray/tests/test_accessor_dt.py::TestDatetimeAccessor::test_accessor_method[round-D]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_not_datetime_type
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_field_access[days]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_field_access[seconds]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_field_access[microseconds]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_field_access[nanoseconds]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_accessor_methods[floor-D]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_accessor_methods[ceil-D]
+PASSED xarray/tests/test_accessor_dt.py::TestTimedeltaAccessor::test_accessor_methods[round-D]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf_datetime_non_standard_units
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[N-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[U-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[L-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[S-seconds]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[T-minutes]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[H-hours]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units[D-days]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units_with_NaT[dates0-days since 1900-01-01 00:00:00]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units_with_NaT[dates1-days since 1900-01-01 00:00:00]
+PASSED xarray/tests/test_coding_times.py::test_infer_datetime_units_with_NaT[dates2-days since 1970-01-01 00:00:00]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[1D-days-numbers0]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[timedeltas1-days-numbers1]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[1h-hours-numbers2]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[1ms-milliseconds-numbers3]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[1us-microseconds-numbers4]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[1ns-nanoseconds-numbers5]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[timedeltas6-None-numbers6]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[timedeltas7-hours-numbers7]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[NaT-days-nan]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta[timedeltas9-days-numbers9]
+PASSED xarray/tests/test_coding_times.py::test_cf_timedelta_2d
+PASSED xarray/tests/test_coding_times.py::test_infer_timedelta_units[deltas0-days]
+PASSED xarray/tests/test_coding_times.py::test_infer_timedelta_units[deltas1-hours]
+PASSED xarray/tests/test_coding_times.py::test_infer_timedelta_units[deltas2-minutes]
+PASSED xarray/tests/test_coding_times.py::test_infer_timedelta_units[deltas3-seconds]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[360_day]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[365_day]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[366_day]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[all_leap]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[gregorian]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[julian]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[noleap]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[proleptic_gregorian]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf[standard]
+PASSED xarray/tests/test_coding_times.py::test_decode_cf_time_bounds
+PASSED xarray/tests/test_coding_times.py::test_contains_cftime_datetimes_non_cftimes[non_cftime_data0]
+PASSED xarray/tests/test_coding_times.py::test_contains_cftime_datetimes_non_cftimes[non_cftime_data1]
+PASSED xarray/tests/test_coding_times.py::test_encode_expected_failures
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_pandas_min
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_out_of_range[1500-gregorian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_out_of_range[1500-proleptic_gregorian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_out_of_range[1500-standard]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_out_of_range[2500-gregorian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_out_of_range[2500-proleptic_gregorian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_out_of_range[2500-standard]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[1500-360_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[1500-365_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[1500-366_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[1500-all_leap]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[1500-julian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[1500-noleap]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2000-360_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2000-365_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2000-366_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2000-all_leap]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2000-julian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2000-noleap]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2500-360_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2500-365_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2500-366_day]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2500-all_leap]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2500-julian]
+PASSED xarray/tests/test_coding_times.py::test_use_cftime_false_non_standard_calendar[2500-noleap]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-N-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-U-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-L-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-S-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-T-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-H-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-nanoseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-microseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-milliseconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-seconds]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-minutes]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-hours]
+PASSED xarray/tests/test_coding_times.py::test_encode_cf_datetime_defaults_to_correct_dtype[date_range-D-days]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[N]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[U]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[L]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[S]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[T]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[H]
+PASSED xarray/tests/test_coding_times.py::test_encode_decode_roundtrip_datetime64[D]
+PASSED xarray/tests/test_coding_times.py::test_decode_encode_roundtrip_with_non_lowercase_letters[gregorian]
+PASSED xarray/tests/test_coding_times.py::test_decode_encode_roundtrip_with_non_lowercase_letters[Gregorian]
+PASSED xarray/tests/test_coding_times.py::test_decode_encode_roundtrip_with_non_lowercase_letters[GREGORIAN]
+SKIPPED [1] xarray/tests/test_calendar_ops.py:11: could not import 'cftime': No module named 'cftime'
+SKIPPED [1] xarray/tests/test_cftime_offsets.py:36: could not import 'cftime': No module named 'cftime'
+SKIPPED [23] xarray/tests/test_accessor_dt.py:124: requires dask
+SKIPPED [3] xarray/tests/test_accessor_dt.py:171: requires dask
+SKIPPED [4] xarray/tests/test_accessor_dt.py:197: requires dask
+SKIPPED [4] xarray/tests/test_accessor_dt.py:307: requires dask
+SKIPPED [3] xarray/tests/test_accessor_dt.py:328: requires dask
+SKIPPED [42] xarray/tests/test_accessor_dt.py:398: requires cftime
+SKIPPED [7] xarray/tests/test_accessor_dt.py:416: requires cftime
+SKIPPED [7] xarray/tests/test_accessor_dt.py:422: requires cftime
+SKIPPED [1] xarray/tests/test_accessor_dt.py:431: requires dask
+SKIPPED [1] xarray/tests/test_accessor_dt.py:444: requires cftime
+SKIPPED [7] xarray/tests/test_accessor_dt.py:462: requires cftime
+SKIPPED [7] xarray/tests/test_accessor_dt.py:471: requires cftime
+SKIPPED [7] xarray/tests/test_accessor_dt.py:481: requires cftime
+SKIPPED [42] xarray/tests/test_accessor_dt.py:497: requires dask
+SKIPPED [42] xarray/tests/test_accessor_dt.py:519: requires dask
+SKIPPED [7] xarray/tests/test_accessor_dt.py:551: requires cftime
+SKIPPED [14] xarray/tests/test_accessor_dt.py:586: requires dask
+SKIPPED [14] xarray/tests/test_accessor_dt.py:619: requires dask
+SKIPPED [14] xarray/tests/test_accessor_dt.py:652: requires dask
+SKIPPED [84] xarray/tests/test_coding_times.py:110: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:148: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:178: requires cftime
+SKIPPED [3] xarray/tests/test_coding_times.py:197: requires cftime
+SKIPPED [6] xarray/tests/test_coding_times.py:217: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:242: requires cftime
+SKIPPED [3] xarray/tests/test_coding_times.py:269: requires cftime
+SKIPPED [6] xarray/tests/test_coding_times.py:282: requires cftime
+SKIPPED [6] xarray/tests/test_coding_times.py:295: requires cftime
+SKIPPED [3] xarray/tests/test_coding_times.py:315: requires cftime
+SKIPPED [6] xarray/tests/test_coding_times.py:346: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:387: requires cftime
+SKIPPED [3] xarray/tests/test_coding_times.py:421: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:440: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:465: requires cftime
+SKIPPED [3] xarray/tests/test_coding_times.py:477: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:500: requires cftime
+SKIPPED [24] xarray/tests/test_coding_times.py:558: requires cftime
+SKIPPED [4] xarray/tests/test_coding_times.py:632: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:714: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:790: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:795: requires dask
+SKIPPED [9] xarray/tests/test_coding_times.py:801: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:806: requires dask
+SKIPPED [2] xarray/tests/test_coding_times.py:817: requires dask
+SKIPPED [3] xarray/tests/test_coding_times.py:823: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:857: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:874: requires cftime
+SKIPPED [6] xarray/tests/test_coding_times.py:914: requires cftime
+SKIPPED [18] xarray/tests/test_coding_times.py:933: requires cftime
+SKIPPED [27] xarray/tests/test_coding_times.py:951: requires cftime
+SKIPPED [9] xarray/tests/test_coding_times.py:999: requires cftime
+SKIPPED [49] xarray/tests/test_coding_times.py:1038: Test requires cftime 1.4.1.
+SKIPPED [6] xarray/tests/test_coding_times.py:1065: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:1078: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:1113: requires cftime
+SKIPPED [1] xarray/tests/test_coding_times.py:1122: requires cftime
+FAILED xarray/tests/test_coding_times.py::test_use_cftime_default_standard_calendar_in_range[gregorian]
+FAILED xarray/tests/test_coding_times.py::test_use_cftime_default_standard_calendar_in_range[proleptic_gregorian]
+FAILED xarray/tests/test_coding_times.py::test_use_cftime_default_standard_calendar_in_range[standard]
+FAILED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_in_range[gregorian]
+FAILED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_in_range[proleptic_gregorian]
+FAILED xarray/tests/test_coding_times.py::test_use_cftime_false_standard_calendar_in_range[standard]
+=========== 6 failed, 164 passed, 595 skipped, 26 warnings in 1.08s ============
+ 
+[pydata__xarray__0.12] [pydata__xarray-5233] Return Code: 1 
+
+>>>>> Some Tests Failed
+[pydata__xarray__0.12] [pydata__xarray-5233] Test script run successful 

@@ -1,0 +1,142 @@
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Task Metadata:
+	- Instance ID: matplotlib__matplotlib-25129
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmp1p9nsag6/matplotlib__matplotlib__3.6
+	- Virtual Env.: matplotlib__matplotlib__3.6
+	- Evaluation Model: gold 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git restore . 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git reset HEAD . 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git clean -fdx 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git -c advice.detachedHead=false checkout 1367ea5fd2420d264fcd63fbbc0521661f868cce 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+HEAD is now at 1367ea5fd2 Merge pull request #24993 from oscargus/docfixes2
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Reset task environment to 1367ea5fd2420d264fcd63fbbc0521661f868cce 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmp1p9nsag6/temp_matplotlib__matplotlib-25129_pred_try.patch 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+Checking patch examples/event_handling/cursor_demo.py...
+Checking patch examples/widgets/annotated_cursor.py...
+Checking patch lib/matplotlib/widgets.py...
+Applied patch examples/event_handling/cursor_demo.py cleanly.
+Applied patch examples/widgets/annotated_cursor.py cleanly.
+Applied patch lib/matplotlib/widgets.py cleanly.
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmp1p9nsag6/temp_matplotlib__matplotlib-25129_pred_try.patch 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+Checking patch lib/matplotlib/widgets.py...
+Checking patch examples/widgets/annotated_cursor.py...
+Checking patch examples/event_handling/cursor_demo.py...
+Applied patch lib/matplotlib/widgets.py cleanly.
+Applied patch examples/widgets/annotated_cursor.py cleanly.
+Applied patch examples/event_handling/cursor_demo.py cleanly.
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/bin/activate matplotlib__matplotlib__3.6 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/bin/activate matplotlib__matplotlib__3.6 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmp1p9nsag6/matplotlib__matplotlib__3.6
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: contourpy>=1.0.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (1.1.0)
+Requirement already satisfied: cycler>=0.10 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (4.42.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (1.4.5)
+Requirement already satisfied: numpy>=1.21 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (1.25.2)
+Requirement already satisfied: packaging>=20.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (23.1)
+Requirement already satisfied: pillow>=6.2.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (10.0.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (2.8.2)
+Requirement already satisfied: setuptools-scm>=7 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from matplotlib==3.7.0.dev1519+g1367ea5fd2) (7.1.0)
+Collecting importlib-resources>=3.2.0 (from matplotlib==3.7.0.dev1519+g1367ea5fd2)
+  Using cached importlib_resources-6.4.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting zipp>=3.1.0 (from importlib-resources>=3.2.0->matplotlib==3.7.0.dev1519+g1367ea5fd2)
+  Using cached zipp-3.18.1-py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: six>=1.5 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib==3.7.0.dev1519+g1367ea5fd2) (1.16.0)
+Requirement already satisfied: setuptools in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from setuptools-scm>=7->matplotlib==3.7.0.dev1519+g1367ea5fd2) (68.1.2)
+Requirement already satisfied: typing-extensions in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from setuptools-scm>=7->matplotlib==3.7.0.dev1519+g1367ea5fd2) (4.7.1)
+Requirement already satisfied: tomli>=1.0.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/lib/python3.9/site-packages (from setuptools-scm>=7->matplotlib==3.7.0.dev1519+g1367ea5fd2) (2.0.1)
+Using cached importlib_resources-6.4.0-py3-none-any.whl (38 kB)
+Using cached zipp-3.18.1-py3-none-any.whl (8.2 kB)
+Building wheels for collected packages: matplotlib
+  Building editable for matplotlib (pyproject.toml): started
+  Building editable for matplotlib (pyproject.toml): finished with status 'done'
+  Created wheel for matplotlib: filename=matplotlib-3.7.0.dev1519+g1367ea5fd2-0.editable-cp39-cp39-linux_x86_64.whl size=22104 sha256=a184bb1233bcc3522d1921f7a4d4db5c3866d99ec3babb0c338b2c085e73aefc
+  Stored in directory: /tmp/pip-ephem-wheel-cache-s060xznz/wheels/22/04/96/d70cd36031ced468d0a3c7d65172426dba63d1f9296031e0c7
+Successfully built matplotlib
+Installing collected packages: zipp, importlib-resources, matplotlib
+Successfully installed importlib-resources-6.4.0 matplotlib-3.7.0.dev1519+g1367ea5fd2 zipp-3.18.1
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Installation successful 
+
+>>>>> Init Succeeded
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmp1p9nsag6/temp_matplotlib__matplotlib-25129_pred.patch 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+Checking patch examples/event_handling/cursor_demo.py...
+Checking patch examples/widgets/annotated_cursor.py...
+Checking patch lib/matplotlib/widgets.py...
+Applied patch examples/event_handling/cursor_demo.py cleanly.
+Applied patch examples/widgets/annotated_cursor.py cleanly.
+Applied patch lib/matplotlib/widgets.py cleanly.
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git restore lib/matplotlib/tests/test_widgets.py 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmp1p9nsag6/temp_matplotlib__matplotlib-25129_test.patch 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+Checking patch lib/matplotlib/tests/test_widgets.py...
+Applied patch lib/matplotlib/tests/test_widgets.py cleanly.
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 0 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/bin/activate matplotlib__matplotlib__3.6 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_widgets.py;
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/bin/activate matplotlib__matplotlib__3.6 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_widgets.py 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.6/tmpgxl689na/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Std. Output:
+activate successful
+/bin/sh: 1: pytest: not found
+ 
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Return Code: 127 
+
+>>>>> Some Tests Failed
+[matplotlib__matplotlib__3.6] [matplotlib__matplotlib-25129] Test script run successful 

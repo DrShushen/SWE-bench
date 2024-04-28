@@ -1,0 +1,146 @@
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Task Metadata:
+	- Instance ID: matplotlib__matplotlib-21617
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpsk5a9_gc/matplotlib__matplotlib__3.4
+	- Virtual Env.: matplotlib__matplotlib__3.4
+	- Evaluation Model: gold 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git restore . 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git reset HEAD . 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git clean -fdx 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git -c advice.detachedHead=false checkout f93c0a3dcb82feed0262d758626c90d4002685f3 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+HEAD is now at f93c0a3dcb Merge pull request #21613 from tacaswell/sec_update_supported_versions
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Reset task environment to f93c0a3dcb82feed0262d758626c90d4002685f3 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpsk5a9_gc/temp_matplotlib__matplotlib-21617_pred_try.patch 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+Checking patch lib/matplotlib/backends/backend_ps.py...
+Applied patch lib/matplotlib/backends/backend_ps.py cleanly.
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpsk5a9_gc/temp_matplotlib__matplotlib-21617_pred_try.patch 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+Checking patch lib/matplotlib/backends/backend_ps.py...
+Applied patch lib/matplotlib/backends/backend_ps.py cleanly.
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/bin/activate matplotlib__matplotlib__3.4 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/bin/activate matplotlib__matplotlib__3.4 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpsk5a9_gc/matplotlib__matplotlib__3.4
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: cycler>=0.10 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (1.4.5)
+Requirement already satisfied: numpy>=1.17 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (23.1)
+Requirement already satisfied: pillow>=6.2.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (10.3.0)
+Requirement already satisfied: pyparsing<3.0.0,>=2.2.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (2.4.7)
+Requirement already satisfied: python-dateutil>=2.7 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev2519+gf93c0a3dcb) (2.9.0.post0)
+Collecting setuptools_scm>=4 (from matplotlib==3.5.0.dev2519+gf93c0a3dcb)
+  Using cached setuptools_scm-8.0.4-py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: six>=1.5 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib==3.5.0.dev2519+gf93c0a3dcb) (1.16.0)
+Requirement already satisfied: setuptools in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev2519+gf93c0a3dcb) (68.0.0)
+Requirement already satisfied: typing-extensions in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev2519+gf93c0a3dcb) (4.11.0)
+Requirement already satisfied: tomli>=1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev2519+gf93c0a3dcb) (2.0.1)
+Using cached setuptools_scm-8.0.4-py3-none-any.whl (42 kB)
+Installing collected packages: setuptools_scm, matplotlib
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.8.4
+    Uninstalling matplotlib-3.8.4:
+      Successfully uninstalled matplotlib-3.8.4
+  Running setup.py develop for matplotlib
+Successfully installed matplotlib-3.5.0.dev2519+gf93c0a3dcb setuptools_scm-8.0.4
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Installation successful 
+
+>>>>> Init Succeeded
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpsk5a9_gc/temp_matplotlib__matplotlib-21617_pred.patch 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+Checking patch lib/matplotlib/backends/backend_ps.py...
+Applied patch lib/matplotlib/backends/backend_ps.py cleanly.
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git restore lib/matplotlib/tests/test_backend_ps.py 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpsk5a9_gc/temp_matplotlib__matplotlib-21617_test.patch 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+Checking patch lib/matplotlib/tests/test_backend_ps.py...
+Applied patch lib/matplotlib/tests/test_backend_ps.py cleanly.
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/bin/activate matplotlib__matplotlib__3.4 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_backend_ps.py;
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/bin/activate matplotlib__matplotlib__3.4 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_backend_ps.py 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.4/tmpok4ez3r3/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Std. Output:
+activate successful
+============================= test session starts ==============================
+collected 31 items
+
+lib/matplotlib/tests/test_backend_ps.py ......ss..ssss.sss.ssssssss....  [100%]
+
+=========================== short test summary info ============================
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps-portrait]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps-landscape]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps with distiller=ghostscript-portrait]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps with distiller=ghostscript-landscape]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps with distiller=xpdf-portrait]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps with distiller=xpdf-landscape]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[eps-portrait]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[eps-landscape]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_patheffects
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_bbox
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_fonttype[3]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_fonttype[42]
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_linedash
+PASSED lib/matplotlib/tests/test_backend_ps.py::test_no_duplicate_definition
+SKIPPED [4] lib/matplotlib/tests/test_backend_ps.py:70: Failed to process string with tex because latex could not be found
+SKIPPED [2] lib/matplotlib/tests/test_backend_ps.py:70: Mathtext using only standard PostScript fonts has been likely to produce wrong output for a while, has been deprecated in 3.4 and will be removed in in 3.5, after which ps.useafm will have no effect on mathtext.
+SKIPPED [1] lib/matplotlib/tests/test_backend_ps.py:95: This test needs a ghostscript installation
+SKIPPED [4] ../../tmpok4ez3r3/miniconda3/lib/python3.9/contextlib.py:79: Cannot compare eps files on this system
+SKIPPED [1] lib/matplotlib/tests/test_backend_ps.py:122: This test needs a TeX installation
+SKIPPED [1] lib/matplotlib/tests/test_backend_ps.py:150: This test needs a TeX installation
+SKIPPED [1] lib/matplotlib/tests/test_backend_ps.py:160: This test needs a TeX installation
+SKIPPED [1] lib/matplotlib/tests/test_backend_ps.py:170: This test needs a TeX installation
+SKIPPED [1] lib/matplotlib/testing/compare.py:274: Don't know how to convert .eps files to png
+SKIPPED [1] lib/matplotlib/tests/test_backend_ps.py:203: This test needs a ghostscript installation
+======================== 14 passed, 17 skipped in 2.19s ========================
+ 
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Return Code: 0 
+
+>>>>> All Tests Passed
+[matplotlib__matplotlib__3.4] [matplotlib__matplotlib-21617] Test script run successful 

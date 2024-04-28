@@ -1,0 +1,245 @@
+[pydata__xarray__0.20] [pydata__xarray-6135] Task Metadata:
+	- Instance ID: pydata__xarray-6135
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmpz5acu5zx/pydata__xarray__0.20
+	- Virtual Env.: pydata__xarray__0.20
+	- Evaluation Model: gold 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git restore . 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git reset HEAD . 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git clean -fdx 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git -c advice.detachedHead=false checkout 48290fa14accd3ac87768d3f73d69493b82b0be6 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+HEAD is now at 48290fa1 Replace skip-duplicate logic with GH concurrency logic (#6245)
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Reset task environment to 48290fa14accd3ac87768d3f73d69493b82b0be6 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmpz5acu5zx/temp_pydata__xarray-6135_pred_try.patch 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+Checking patch xarray/coding/cftime_offsets.py...
+Checking patch xarray/coding/cftimeindex.py...
+Applied patch xarray/coding/cftime_offsets.py cleanly.
+Applied patch xarray/coding/cftimeindex.py cleanly.
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmpz5acu5zx/temp_pydata__xarray-6135_pred_try.patch 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+Checking patch xarray/coding/cftimeindex.py...
+Checking patch xarray/coding/cftime_offsets.py...
+Applied patch xarray/coding/cftimeindex.py cleanly.
+Applied patch xarray/coding/cftime_offsets.py cleanly.
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pydata__xarray__0.20] [pydata__xarray-6135] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/bin/activate pydata__xarray__0.20 && echo 'activate successful' && pip install -e . 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/bin/activate pydata__xarray__0.20 && echo 'activate successful' && pip install -e . 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmpz5acu5zx/pydata__xarray__0.20
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.18 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/lib/python3.9/site-packages (from xarray==0.21.2.dev11+g48290fa1) (1.25.2)
+Requirement already satisfied: pandas>=1.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/lib/python3.9/site-packages (from xarray==0.21.2.dev11+g48290fa1) (1.5.3)
+Requirement already satisfied: packaging>=20.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/lib/python3.9/site-packages (from xarray==0.21.2.dev11+g48290fa1) (23.1)
+Requirement already satisfied: python-dateutil>=2.8.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/lib/python3.9/site-packages (from pandas>=1.1->xarray==0.21.2.dev11+g48290fa1) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/lib/python3.9/site-packages (from pandas>=1.1->xarray==0.21.2.dev11+g48290fa1) (2023.3)
+Requirement already satisfied: six>=1.5 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/lib/python3.9/site-packages (from python-dateutil>=2.8.1->pandas>=1.1->xarray==0.21.2.dev11+g48290fa1) (1.16.0)
+Building wheels for collected packages: xarray
+  Building editable for xarray (pyproject.toml): started
+  Building editable for xarray (pyproject.toml): finished with status 'done'
+  Created wheel for xarray: filename=xarray-0.21.2.dev11+g48290fa1-0.editable-py3-none-any.whl size=8818 sha256=71a14e59f0b311b3178162f4706a0733bf4025b50ad0a0097093ab8fffadd06d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-aw4nu827/wheels/02/18/f4/358bd651c1a1c3454026f3fc60e953d410ebc3290b347f346f
+Successfully built xarray
+Installing collected packages: xarray
+Successfully installed xarray-0.21.2.dev11+g48290fa1
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Installation successful 
+
+>>>>> Init Succeeded
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmpz5acu5zx/temp_pydata__xarray-6135_pred.patch 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+Checking patch xarray/coding/cftime_offsets.py...
+Checking patch xarray/coding/cftimeindex.py...
+Applied patch xarray/coding/cftime_offsets.py cleanly.
+Applied patch xarray/coding/cftimeindex.py cleanly.
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git restore xarray/tests/test_cftime_offsets.py 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git restore xarray/tests/test_cftimeindex.py 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmpz5acu5zx/temp_pydata__xarray-6135_test.patch 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+Checking patch xarray/tests/test_cftime_offsets.py...
+Checking patch xarray/tests/test_cftimeindex.py...
+Applied patch xarray/tests/test_cftime_offsets.py cleanly.
+Applied patch xarray/tests/test_cftimeindex.py cleanly.
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+[pydata__xarray__0.20] [pydata__xarray-6135] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/bin/activate pydata__xarray__0.20 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider xarray/tests/test_cftime_offsets.py xarray/tests/test_cftimeindex.py;
+[pydata__xarray__0.20] [pydata__xarray-6135] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/bin/activate pydata__xarray__0.20 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider xarray/tests/test_cftime_offsets.py xarray/tests/test_cftimeindex.py 
+[pydata__xarray__0.20] [pydata__xarray-6135] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/xarray/0.20/tmp9x9hty7y/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pydata__xarray__0.20] [pydata__xarray-6135] Std. Output:
+activate successful
+============================= test session starts ==============================
+collected 908 items / 1 skipped
+
+xarray/tests/test_cftimeindex.py ..............sssssssssssssssssssssssss [  4%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 12%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 20%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 28%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 36%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 43%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 51%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 59%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 67%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 75%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 83%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 91%]
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 99%]
+sssss                                                                    [100%]
+
+=========================== short test summary info ============================
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[year]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[month]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[month-dash]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[day]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[day-dash]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[hour]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[hour-dash]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[hour-space-separator]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[minute]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[minute-dash]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[minute-space-separator]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[second]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[second-dash]
+PASSED xarray/tests/test_cftimeindex.py::test_parse_iso8601_like[second-space-separator]
+SKIPPED [1] xarray/tests/test_cftime_offsets.py:37: could not import 'cftime': No module named 'cftime'
+SKIPPED [14] xarray/tests/test_cftimeindex.py:198: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:205: requires cftime
+SKIPPED [49] xarray/tests/test_cftimeindex.py:226: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:244: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:251: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:258: requires cftime
+SKIPPED [42] xarray/tests/test_cftimeindex.py:265: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:285: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:295: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:305: requires cftime
+SKIPPED [28] xarray/tests/test_cftimeindex.py:315: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:337: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:343: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:358: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:385: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:416: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:443: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:450: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:455: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:464: requires cftime
+SKIPPED [21] xarray/tests/test_cftimeindex.py:478: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:490: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:500: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:507: requires cftime
+SKIPPED [21] xarray/tests/test_cftimeindex.py:514: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:533: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:548: requires cftime
+SKIPPED [21] xarray/tests/test_cftimeindex.py:563: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:577: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:596: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:607: requires cftime
+SKIPPED [21] xarray/tests/test_cftimeindex.py:618: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:632: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:659: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:669: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:679: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:688: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:696: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:709: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:721: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:734: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:740: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:755: requires cftime
+SKIPPED [70] xarray/tests/test_cftimeindex.py:766: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:787: requires cftime
+SKIPPED [8] xarray/tests/test_cftimeindex.py:796: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:804: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:819: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:830: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:846: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:867: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:878: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:888: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:898: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:906: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:917: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:928: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:936: requires cftime
+SKIPPED [14] xarray/tests/test_cftimeindex.py:942: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:958: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:965: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:972: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:990: requires cftime
+SKIPPED [2] xarray/tests/test_cftimeindex.py:1011: requires cftime
+SKIPPED [6] xarray/tests/test_cftimeindex.py:1020: requires cftime
+SKIPPED [3] xarray/tests/test_cftimeindex.py:1030: requires cftime
+SKIPPED [15] xarray/tests/test_cftimeindex.py:1070: requires cftime
+SKIPPED [3] xarray/tests/test_cftimeindex.py:1088: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:1098: requires cftime
+SKIPPED [9] xarray/tests/test_cftimeindex.py:1120: requires cftime
+SKIPPED [18] xarray/tests/test_cftimeindex.py:1131: requires cftime
+SKIPPED [9] xarray/tests/test_cftimeindex.py:1149: requires cftime
+SKIPPED [2] xarray/tests/test_cftimeindex.py:1157: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:1165: requires cftime
+SKIPPED [9] xarray/tests/test_cftimeindex.py:1173: requires cftime
+SKIPPED [3] xarray/tests/test_cftimeindex.py:1184: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:1203: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:1216: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:1229: requires cftime
+SKIPPED [7] xarray/tests/test_cftimeindex.py:1242: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:1250: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:1262: requires cftime
+SKIPPED [1] xarray/tests/test_cftimeindex.py:1277: requires cftime
+SKIPPED [91] xarray/tests/test_cftimeindex.py:1306: requires cftime
+======================= 14 passed, 895 skipped in 1.18s ========================
+ 
+[pydata__xarray__0.20] [pydata__xarray-6135] Return Code: 0 
+
+>>>>> All Tests Passed
+[pydata__xarray__0.20] [pydata__xarray-6135] Test script run successful 

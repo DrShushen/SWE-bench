@@ -1,0 +1,166 @@
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Task Metadata:
+	- Instance ID: matplotlib__matplotlib-17810
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpp3h3ijrr/matplotlib__matplotlib__3.2
+	- Virtual Env.: matplotlib__matplotlib__3.2
+	- Evaluation Model: gold 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git restore . 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git reset HEAD . 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git clean -fdx 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git -c advice.detachedHead=false checkout d29056c492dbf8067f2a60b0d920e18c4a892116 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+HEAD is now at d29056c492 Merge pull request #20115 from tacaswell/enh_figure_kwargs
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Reset task environment to d29056c492dbf8067f2a60b0d920e18c4a892116 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpp3h3ijrr/temp_matplotlib__matplotlib-17810_pred_try.patch 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+Checking patch lib/matplotlib/animation.py...
+Applied patch lib/matplotlib/animation.py cleanly.
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpp3h3ijrr/temp_matplotlib__matplotlib-17810_pred_try.patch 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+Checking patch lib/matplotlib/animation.py...
+Applied patch lib/matplotlib/animation.py cleanly.
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/bin/activate matplotlib__matplotlib__3.2 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/bin/activate matplotlib__matplotlib__3.2 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpp3h3ijrr/matplotlib__matplotlib__3.2
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cycler>=0.10 (from matplotlib==3.5.0.dev1629+gd29056c492)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib==3.5.0.dev1629+gd29056c492)
+  Using cached fonttools-4.51.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (159 kB)
+Collecting kiwisolver>=1.0.1 (from matplotlib==3.5.0.dev1629+gd29056c492)
+  Using cached kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.4 kB)
+Requirement already satisfied: numpy>=1.17 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev1629+gd29056c492) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev1629+gd29056c492) (23.1)
+Requirement already satisfied: pillow>=6.2.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev1629+gd29056c492) (10.3.0)
+Collecting pyparsing>=2.2.1 (from matplotlib==3.5.0.dev1629+gd29056c492)
+  Using cached pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: python-dateutil>=2.7 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev1629+gd29056c492) (2.9.0.post0)
+Collecting setuptools_scm>=4 (from matplotlib==3.5.0.dev1629+gd29056c492)
+  Using cached setuptools_scm-8.0.4-py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: six>=1.5 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib==3.5.0.dev1629+gd29056c492) (1.16.0)
+Requirement already satisfied: setuptools in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev1629+gd29056c492) (68.0.0)
+Requirement already satisfied: typing-extensions in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev1629+gd29056c492) (4.11.0)
+Requirement already satisfied: tomli>=1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev1629+gd29056c492) (2.0.1)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.51.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+Using cached kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+Using cached pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Using cached setuptools_scm-8.0.4-py3-none-any.whl (42 kB)
+Installing collected packages: setuptools_scm, pyparsing, kiwisolver, fonttools, cycler, matplotlib
+  Running setup.py develop for matplotlib
+Successfully installed cycler-0.12.1 fonttools-4.51.0 kiwisolver-1.4.5 matplotlib-3.5.0.dev1629+gd29056c492 pyparsing-3.1.2 setuptools_scm-8.0.4
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Installation successful 
+
+>>>>> Init Succeeded
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpp3h3ijrr/temp_matplotlib__matplotlib-17810_pred.patch 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+Checking patch lib/matplotlib/animation.py...
+Applied patch lib/matplotlib/animation.py cleanly.
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git restore lib/matplotlib/tests/test_animation.py 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpp3h3ijrr/temp_matplotlib__matplotlib-17810_test.patch 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+Checking patch lib/matplotlib/tests/test_animation.py...
+Applied patch lib/matplotlib/tests/test_animation.py cleanly.
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 0 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/bin/activate matplotlib__matplotlib__3.2 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_animation.py;
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/bin/activate matplotlib__matplotlib__3.2 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_animation.py 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/matplotlib/3.2/tmpbs2v5emx/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Std. Output:
+activate successful
+============================= test session starts ==============================
+collected 49 items
+
+lib/matplotlib/tests/test_animation.py ...ssssssssssssFFFFFFFFFFFFssssss [ 67%]
+..s.s...........                                                         [100%]
+
+=========================== short test summary info ============================
+PASSED lib/matplotlib/tests/test_animation.py::test_null_movie_writer
+PASSED lib/matplotlib/tests/test_animation.py::test_animation_delete[anim0]
+PASSED lib/matplotlib/tests/test_animation.py::test_movie_writer_dpi_default
+PASSED lib/matplotlib/tests/test_animation.py::test_no_length_frames[anim0]
+PASSED lib/matplotlib/tests/test_animation.py::test_movie_writer_registry
+PASSED lib/matplotlib/tests/test_animation.py::test_embed_limit[anim0-to_jshtml]
+PASSED lib/matplotlib/tests/test_animation.py::test_cleanup_temporaries[anim0-to_jshtml]
+PASSED lib/matplotlib/tests/test_animation.py::test_failing_ffmpeg
+PASSED lib/matplotlib/tests/test_animation.py::test_funcanimation_cache_frame_data[False]
+PASSED lib/matplotlib/tests/test_animation.py::test_funcanimation_cache_frame_data[True]
+PASSED lib/matplotlib/tests/test_animation.py::test_draw_frame[None]
+PASSED lib/matplotlib/tests/test_animation.py::test_draw_frame[string]
+PASSED lib/matplotlib/tests/test_animation.py::test_draw_frame[1]
+PASSED lib/matplotlib/tests/test_animation.py::test_draw_frame[return_value3]
+PASSED lib/matplotlib/tests/test_animation.py::test_draw_frame[artist]
+PASSED lib/matplotlib/tests/test_animation.py::test_exhausted_animation
+PASSED lib/matplotlib/tests/test_animation.py::test_no_frame_warning
+SKIPPED [2] lib/matplotlib/tests/test_animation.py:164: writer 'ffmpeg' not available on this system
+SKIPPED [2] lib/matplotlib/tests/test_animation.py:164: writer 'ffmpeg_file' not available on this system
+SKIPPED [2] lib/matplotlib/tests/test_animation.py:164: writer 'avconv' not available on this system
+SKIPPED [2] lib/matplotlib/tests/test_animation.py:164: writer 'avconv_file' not available on this system
+SKIPPED [2] lib/matplotlib/tests/test_animation.py:164: writer 'imagemagick' not available on this system
+SKIPPED [2] lib/matplotlib/tests/test_animation.py:164: writer 'imagemagick_file' not available on this system
+SKIPPED [3] lib/matplotlib/tests/test_animation.py:187: Requires FFMpeg
+SKIPPED [3] lib/matplotlib/tests/test_animation.py:187: Requires ImageMagick
+SKIPPED [1] lib/matplotlib/tests/test_animation.py:238: animation writer not installed
+SKIPPED [1] lib/matplotlib/tests/test_animation.py:256: animation writer not installed
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-pillow-None-movie.gif]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-pillow-None-output13]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-png-movie.html]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-png-output15]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-jpeg-movie.html]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-jpeg-output17]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-tiff-movie.html]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-tiff-output19]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-svg-movie.html]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-html-svg-output21]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-null-None-movie.null]
+FAILED lib/matplotlib/tests/test_animation.py::test_save_animation_smoketest[anim0-null-None-output23]
+================== 12 failed, 17 passed, 20 skipped in 3.49s ===================
+ 
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Return Code: 1 
+
+>>>>> Some Tests Failed
+[matplotlib__matplotlib__3.2] [matplotlib__matplotlib-17810] Test script run successful 

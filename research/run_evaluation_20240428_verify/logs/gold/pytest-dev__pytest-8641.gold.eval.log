@@ -1,0 +1,127 @@
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Task Metadata:
+	- Instance ID: pytest-dev__pytest-8641
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/pytest-dev__pytest__6.3
+	- Virtual Env.: pytest-dev__pytest__6.3
+	- Evaluation Model: gold 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git restore . 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git reset HEAD . 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git clean -fdx 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git -c advice.detachedHead=false checkout 634312b14a45db8d60d72016e01294284e3a18d4 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+HEAD is now at 634312b14 Merge pull request #8633 from The-Compiler/ci-colors
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Reset task environment to 634312b14a45db8d60d72016e01294284e3a18d4 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/temp_pytest-dev__pytest-8641_pred_try.patch 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+Checking patch src/_pytest/logging.py...
+Applied patch src/_pytest/logging.py cleanly.
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/temp_pytest-dev__pytest-8641_pred_try.patch 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+Checking patch src/_pytest/logging.py...
+Applied patch src/_pytest/logging.py cleanly.
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/bin/activate pytest-dev__pytest__6.3 && echo 'activate successful' && pip install -e . 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/bin/activate pytest-dev__pytest__6.3 && echo 'activate successful' && pip install -e . 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/pytest-dev__pytest__6.3
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: attrs>=19.2.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/lib/python3.9/site-packages (from pytest==6.3.0.dev425+g634312b14) (23.1.0)
+Requirement already satisfied: iniconfig in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/lib/python3.9/site-packages (from pytest==6.3.0.dev425+g634312b14) (2.0.0)
+Requirement already satisfied: packaging in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/lib/python3.9/site-packages (from pytest==6.3.0.dev425+g634312b14) (23.1)
+Requirement already satisfied: pluggy<1.0.0a1,>=0.12 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/lib/python3.9/site-packages (from pytest==6.3.0.dev425+g634312b14) (0.13.1)
+Requirement already satisfied: py>=1.8.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/lib/python3.9/site-packages (from pytest==6.3.0.dev425+g634312b14) (1.11.0)
+Requirement already satisfied: toml in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/lib/python3.9/site-packages (from pytest==6.3.0.dev425+g634312b14) (0.10.2)
+Building wheels for collected packages: pytest
+  Building editable for pytest (pyproject.toml): started
+  Building editable for pytest (pyproject.toml): finished with status 'done'
+  Created wheel for pytest: filename=pytest-6.3.0.dev425+g634312b14-0.editable-py3-none-any.whl size=5225 sha256=caedf1efd14e4f67ebe66baf19148f78edd4ab19aa9fd3a58f5dd7b26fdc0501
+  Stored in directory: /tmp/pip-ephem-wheel-cache-3p0kjes3/wheels/72/24/d1/1106feecb23270bade6780f4768ae6c1fa209702b90d57dcd7
+Successfully built pytest
+Installing collected packages: pytest
+Successfully installed pytest-6.3.0.dev425+g634312b14
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Installation successful 
+
+>>>>> Init Succeeded
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/temp_pytest-dev__pytest-8641_pred.patch 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+Checking patch src/_pytest/logging.py...
+Applied patch src/_pytest/logging.py cleanly.
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git restore testing/logging/test_formatter.py 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/temp_pytest-dev__pytest-8641_test.patch 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+Checking patch testing/logging/test_formatter.py...
+Applied patch testing/logging/test_formatter.py cleanly.
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/bin/activate pytest-dev__pytest__6.3 && echo 'activate successful' && pytest -rA testing/logging/test_formatter.py;
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/bin/activate pytest-dev__pytest__6.3 && echo 'activate successful' && pytest -rA testing/logging/test_formatter.py 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmpmq1mxbjn/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Std. Output:
+activate successful
+============================= test session starts ==============================
+platform linux -- Python 3.9.18, pytest-6.3.0.dev425+g634312b14, py-1.11.0, pluggy-0.13.1
+rootdir: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/pytest/6.3/tmp8jkf0xgl/pytest-dev__pytest__6.3, configfile: pyproject.toml
+collected 4 items
+
+testing/logging/test_formatter.py ....                                   [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED testing/logging/test_formatter.py::test_coloredlogformatter
+PASSED testing/logging/test_formatter.py::test_coloredlogformatter_with_width_precision
+PASSED testing/logging/test_formatter.py::test_multiline_message
+PASSED testing/logging/test_formatter.py::test_colored_short_level
+============================== 4 passed in 0.14s ===============================
+ 
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Return Code: 0 
+
+>>>>> All Tests Passed
+[pytest-dev__pytest__6.3] [pytest-dev__pytest-8641] Test script run successful 

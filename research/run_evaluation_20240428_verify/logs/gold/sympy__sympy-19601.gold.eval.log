@@ -1,0 +1,137 @@
+[sympy__sympy__1.6] [sympy__sympy-19601] Task Metadata:
+	- Instance ID: sympy__sympy-19601
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmp_ue0znmy/sympy__sympy__1.6
+	- Virtual Env.: sympy__sympy__1.6
+	- Evaluation Model: gold 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git restore . 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git reset HEAD . 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git clean -fdx 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git -c advice.detachedHead=false checkout 28b41c73c12b70d6ad9f6e45109a80649c4456da 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+HEAD is now at 28b41c73c1 Merge pull request #19598 from oscarbenjamin/pr_bump_version_161rc1
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Reset task environment to 28b41c73c12b70d6ad9f6e45109a80649c4456da 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmp_ue0znmy/temp_sympy__sympy-19601_pred_try.patch 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+Checking patch sympy/simplify/radsimp.py...
+Applied patch sympy/simplify/radsimp.py cleanly.
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmp_ue0znmy/temp_sympy__sympy-19601_pred_try.patch 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+Checking patch sympy/simplify/radsimp.py...
+Applied patch sympy/simplify/radsimp.py cleanly.
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[sympy__sympy__1.6] [sympy__sympy-19601] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/bin/activate sympy__sympy__1.6 && echo 'activate successful' && pip install -e . 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/bin/activate sympy__sympy__1.6 && echo 'activate successful' && pip install -e . 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmp_ue0znmy/sympy__sympy__1.6
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/lib/python3.9/site-packages (from sympy==1.6.1rc1) (1.3.0)
+Installing collected packages: sympy
+  Running setup.py develop for sympy
+Successfully installed sympy-1.6.1rc1
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Installation successful 
+
+>>>>> Init Succeeded
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmp_ue0znmy/temp_sympy__sympy-19601_pred.patch 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+Checking patch sympy/simplify/radsimp.py...
+Applied patch sympy/simplify/radsimp.py cleanly.
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git restore sympy/simplify/tests/test_radsimp.py 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmp_ue0znmy/temp_sympy__sympy-19601_test.patch 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+Checking patch sympy/simplify/tests/test_radsimp.py...
+Applied patch sympy/simplify/tests/test_radsimp.py cleanly.
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+[sympy__sympy__1.6] [sympy__sympy-19601] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/bin/activate sympy__sympy__1.6 && echo 'activate successful' && bin/test -C --verbose sympy/simplify/tests/test_radsimp.py;
+[sympy__sympy__1.6] [sympy__sympy-19601] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/bin/activate sympy__sympy__1.6 && echo 'activate successful' && bin/test -C --verbose sympy/simplify/tests/test_radsimp.py 
+[sympy__sympy__1.6] [sympy__sympy-19601] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[sympy__sympy__1.6] [sympy__sympy-19601] Std. Output:
+activate successful
+============================= test process starts ==============================
+executable:         /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/sympy/1.6/tmple1mzp1d/miniconda3/bin/python  (3.9.18-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        6756105
+hash randomization: on (PYTHONHASHSEED=4136756577)
+
+sympy/simplify/tests/test_radsimp.py[24] 
+test_radsimp ok
+test_radsimp_issue_3214 ok
+test_collect_1 ok
+test_collect_2 ok
+test_collect_3 ok
+test_collect_4 ok
+test_collect_5 ok
+test_collect_pr19431 ok
+test_collect_D ok
+test_collect_func ok
+test_collect_order ok
+test_rcollect ok
+test_collect_D_0 ok
+test_collect_Wild ok
+test_collect_const ok
+test_issue_13143 ok
+test_issue_6097 ok
+test_fraction_expand ok
+test_fraction ok
+test_issue_5615 ok
+test_issue_5933 ok
+test_issue_14608 ok
+test_collect_abs ok
+test_issue_19149 ok                                                         [OK]
+
+
+________________________________ slowest tests _________________________________
+test_radsimp - Took 15.464 seconds
+test_collect_order - Took 15.984 seconds
+================= tests finished: 24 passed, in 42.55 seconds ==================
+ 
+[sympy__sympy__1.6] [sympy__sympy-19601] Return Code: 0 
+
+>>>>> All Tests Passed
+[sympy__sympy__1.6] [sympy__sympy-19601] Test script run successful 

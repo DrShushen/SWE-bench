@@ -1,0 +1,114 @@
+[psf__requests__3.0] [psf__requests-2754] Task Metadata:
+	- Instance ID: psf__requests-2754
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmprkqnjd9d/psf__requests__3.0
+	- Virtual Env.: psf__requests__3.0
+	- Evaluation Model: gold 
+[psf__requests__3.0] [psf__requests-2754] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Command: git restore . 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Command: git reset HEAD . 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Command: git clean -fdx 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Command: git -c advice.detachedHead=false checkout 0acbf2b91d9a196a58535e926531f810d44c4d3f 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+HEAD is now at 0acbf2b9 Merge pull request #3056 from digitaldavenyc/native_json
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Reset task environment to 0acbf2b91d9a196a58535e926531f810d44c4d3f 
+[psf__requests__3.0] [psf__requests-2754] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmprkqnjd9d/temp_psf__requests-2754_pred_try.patch 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+Checking patch requests/sessions.py...
+Checking patch requests/utils.py...
+Applied patch requests/sessions.py cleanly.
+Applied patch requests/utils.py cleanly.
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[psf__requests__3.0] [psf__requests-2754] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmprkqnjd9d/temp_psf__requests-2754_pred_try.patch 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+Checking patch requests/utils.py...
+Checking patch requests/sessions.py...
+Applied patch requests/utils.py cleanly.
+Applied patch requests/sessions.py cleanly.
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[psf__requests__3.0] [psf__requests-2754] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/bin/activate psf__requests__3.0 && echo 'activate successful' && python -m pip install . 
+[psf__requests__3.0] [psf__requests-2754] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/bin/activate psf__requests__3.0 && echo 'activate successful' && python -m pip install . 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+activate successful
+Processing /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmprkqnjd9d/psf__requests__3.0
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: requests
+  Building wheel for requests (setup.py): started
+  Building wheel for requests (setup.py): finished with status 'done'
+  Created wheel for requests: filename=requests-3.0.0-py2.py3-none-any.whl size=492485 sha256=646d0874b98c4b0ff94c67b3ae712f8e2bccca39cc9a8e70df3f9dd84dd2e98a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-hrkoc18r/wheels/2e/a7/39/c48c30024b7333c3a47ad175315c75e7ba730a4e04cafda089
+Successfully built requests
+Installing collected packages: requests
+  Attempting uninstall: requests
+    Found existing installation: requests 2.31.0
+    Uninstalling requests-2.31.0:
+      Successfully uninstalled requests-2.31.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+conda 23.10.0 requires requests<3,>=2.27.0, but you have requests 3.0.0 which is incompatible.
+Successfully installed requests-3.0.0
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Installation successful 
+
+>>>>> Init Succeeded
+[psf__requests__3.0] [psf__requests-2754] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmprkqnjd9d/temp_psf__requests-2754_pred.patch 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+Checking patch requests/sessions.py...
+Checking patch requests/utils.py...
+Applied patch requests/sessions.py cleanly.
+Applied patch requests/utils.py cleanly.
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[psf__requests__3.0] [psf__requests-2754] Command: git restore test_requests.py 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmprkqnjd9d/temp_psf__requests-2754_test.patch 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+Checking patch test_requests.py...
+Applied patch test_requests.py cleanly.
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 0 
+[psf__requests__3.0] [psf__requests-2754] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/bin/activate psf__requests__3.0 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider test_requests.py;
+[psf__requests__3.0] [psf__requests-2754] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/bin/activate psf__requests__3.0 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider test_requests.py 
+[psf__requests__3.0] [psf__requests-2754] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify/testbed/gold/requests/3.0/tmpkem5t9am/miniconda3/cache"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[psf__requests__3.0] [psf__requests-2754] Std. Output:
+activate successful
+/bin/sh: 1: pytest: not found
+ 
+[psf__requests__3.0] [psf__requests-2754] Return Code: 127 
+
+>>>>> Some Tests Failed
+[psf__requests__3.0] [psf__requests-2754] Test script run successful 
