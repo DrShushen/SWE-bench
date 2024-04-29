@@ -1,0 +1,281 @@
+[astropy__astropy__1.3] [astropy__astropy-6938] Task Metadata:
+	- Instance ID: astropy__astropy-6938
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/astropy__astropy__1.3
+	- Virtual Env.: astropy__astropy__1.3
+	- Evaluation Model: dummy 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git restore . 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git reset HEAD . 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git clean -fdx 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git -c advice.detachedHead=false checkout c76af9ed6bb89bfba45b9f5bc1e635188278e2fa 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+HEAD is now at c76af9ed6 Merge pull request #6981 from mhvk/iers-b-for-3.0
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Reset task environment to c76af9ed6bb89bfba45b9f5bc1e635188278e2fa 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/temp_astropy__astropy-6938_pred_try.patch 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/temp_astropy__astropy-6938_pred_try.patch 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[astropy__astropy__1.3] [astropy__astropy-6938] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin/activate astropy__astropy__1.3 && echo 'activate successful' && pip install -e .[test] 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin/activate astropy__astropy__1.3 && echo 'activate successful' && pip install -e .[test] 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/astropy__astropy__1.3
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting numpy>=1.10.0
+  Using cached numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting pytest-astropy
+  Using cached pytest_astropy-0.11.0-py3-none-any.whl.metadata (4.5 kB)
+Collecting pytest>=4.6 (from pytest-astropy)
+  Using cached pytest-8.2.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting pytest-doctestplus>=1.0.0 (from pytest-astropy)
+  Using cached pytest_doctestplus-1.2.1-py3-none-any.whl.metadata (17 kB)
+Collecting pytest-remotedata>=0.4.1 (from pytest-astropy)
+  Using cached pytest_remotedata-0.4.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting pytest-astropy-header>=0.2.2 (from pytest-astropy)
+  Using cached pytest_astropy_header-0.2.2-py3-none-any.whl.metadata (8.5 kB)
+Collecting pytest-arraydiff>=0.5 (from pytest-astropy)
+  Using cached pytest_arraydiff-0.6.1-py3-none-any.whl.metadata (8.5 kB)
+Collecting pytest-filter-subpackage>=0.1.2 (from pytest-astropy)
+  Using cached pytest_filter_subpackage-0.2.0-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting pytest-cov>=2.3.1 (from pytest-astropy)
+  Using cached pytest_cov-5.0.0-py3-none-any.whl.metadata (27 kB)
+Collecting pytest-mock>=2.0 (from pytest-astropy)
+  Using cached pytest_mock-3.14.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting attrs>=19.2.0 (from pytest-astropy)
+  Using cached attrs-23.2.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting hypothesis>=5.1 (from pytest-astropy)
+  Using cached hypothesis-6.100.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting sortedcontainers<3.0.0,>=2.1.0 (from hypothesis>=5.1->pytest-astropy)
+  Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+Collecting exceptiongroup>=1.0.0 (from hypothesis>=5.1->pytest-astropy)
+  Using cached exceptiongroup-1.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting iniconfig (from pytest>=4.6->pytest-astropy)
+  Using cached iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: packaging in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/lib/python3.9/site-packages (from pytest>=4.6->pytest-astropy) (23.1)
+Collecting pluggy<2.0,>=1.5 (from pytest>=4.6->pytest-astropy)
+  Using cached pluggy-1.5.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting tomli>=1 (from pytest>=4.6->pytest-astropy)
+  Using cached tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+Collecting coverage>=5.2.1 (from coverage[toml]>=5.2.1->pytest-cov>=2.3.1->pytest-astropy)
+  Using cached coverage-7.5.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.2 kB)
+Requirement already satisfied: setuptools>=30.3.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/lib/python3.9/site-packages (from pytest-doctestplus>=1.0.0->pytest-astropy) (68.0.0)
+Using cached numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+Using cached pytest_astropy-0.11.0-py3-none-any.whl (5.2 kB)
+Using cached attrs-23.2.0-py3-none-any.whl (60 kB)
+Using cached hypothesis-6.100.2-py3-none-any.whl (458 kB)
+Using cached pytest-8.2.0-py3-none-any.whl (339 kB)
+Using cached pytest_arraydiff-0.6.1-py3-none-any.whl (10 kB)
+Using cached pytest_astropy_header-0.2.2-py3-none-any.whl (7.8 kB)
+Using cached pytest_cov-5.0.0-py3-none-any.whl (21 kB)
+Using cached pytest_doctestplus-1.2.1-py3-none-any.whl (24 kB)
+Using cached pytest_filter_subpackage-0.2.0-py2.py3-none-any.whl (5.5 kB)
+Using cached pytest_mock-3.14.0-py3-none-any.whl (9.9 kB)
+Using cached pytest_remotedata-0.4.1-py3-none-any.whl (8.6 kB)
+Using cached coverage-7.5.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (237 kB)
+Using cached exceptiongroup-1.2.1-py3-none-any.whl (16 kB)
+Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Installing collected packages: sortedcontainers, tomli, pluggy, numpy, iniconfig, exceptiongroup, coverage, attrs, pytest, hypothesis, astropy, pytest-remotedata, pytest-mock, pytest-filter-subpackage, pytest-doctestplus, pytest-cov, pytest-astropy-header, pytest-arraydiff, pytest-astropy
+  Attempting uninstall: pluggy
+    Found existing installation: pluggy 1.0.0
+    Uninstalling pluggy-1.0.0:
+      Successfully uninstalled pluggy-1.0.0
+  Running setup.py develop for astropy
+Successfully installed astropy-3.0.dev20979 attrs-23.2.0 coverage-7.5.0 exceptiongroup-1.2.1 hypothesis-6.100.2 iniconfig-2.0.0 numpy-1.26.4 pluggy-1.5.0 pytest-8.2.0 pytest-arraydiff-0.6.1 pytest-astropy-0.11.0 pytest-astropy-header-0.2.2 pytest-cov-5.0.0 pytest-doctestplus-1.2.1 pytest-filter-subpackage-0.2.0 pytest-mock-3.14.0 pytest-remotedata-0.4.1 sortedcontainers-2.4.0 tomli-2.0.1
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Installation successful 
+
+>>>>> Init Succeeded
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/temp_astropy__astropy-6938_pred.patch 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git restore astropy/io/fits/tests/test_checksum.py 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git restore astropy/io/fits/tests/test_table.py 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/temp_astropy__astropy-6938_test.patch 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+Checking patch astropy/io/fits/tests/test_checksum.py...
+Checking patch astropy/io/fits/tests/test_table.py...
+Applied patch astropy/io/fits/tests/test_checksum.py cleanly.
+Applied patch astropy/io/fits/tests/test_table.py cleanly.
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 0 
+[astropy__astropy__1.3] [astropy__astropy-6938] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin/activate astropy__astropy__1.3 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider astropy/io/fits/tests/test_checksum.py astropy/io/fits/tests/test_table.py;
+[astropy__astropy__1.3] [astropy__astropy-6938] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin/activate astropy__astropy__1.3 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider astropy/io/fits/tests/test_checksum.py astropy/io/fits/tests/test_table.py 
+[astropy__astropy__1.3] [astropy__astropy-6938] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp1xfcz15_/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[astropy__astropy__1.3] [astropy__astropy-6938] Std. Output:
+activate successful
+/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/astropy/1.3/tmp2aihf028/astropy__astropy__1.3/astropy/config/configuration.py:536: ConfigurationMissingWarning: Configuration defaults will be used due to OSError:Could not find unix home directory to search for astropy config dir on None
+  warn(ConfigurationMissingWarning(msg))
+============================= test session starts ==============================
+collected 107 items
+
+astropy/io/fits/tests/test_checksum.py FFFFFFFFFFFFFFFFFFFFF             [ 19%]
+astropy/io/fits/tests/test_table.py FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF [ 53%]
+FFFFFFFFFFFFFFF.FFFFFFFFFssFFFFFFFFF.F..F.F....FF.                       [100%]
+
+=========================== short test summary info ============================
+PASSED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_column_array_type_mismatch
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_column_format_interpretation
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_column_array_type_mismatch
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_new_coldefs_with_invalid_seqence
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_column_lookup_by_name
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_x_column_deepcopy
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_p_column_deepcopy
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_column_verify_keywords
+PASSED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_column_verify_start
+PASSED astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing
+SKIPPED [1] astropy/io/fits/tests/test_table.py:2468: condition: not HAVE_OBJGRAPH
+SKIPPED [1] astropy/io/fits/tests/test_table.py:2482: condition: not HAVE_OBJGRAPH
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_sample_file
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_image_create
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_scaled_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_scaled_data_auto_rescale
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_uint16_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_groups_hdu_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_binary_table_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_variable_length_table_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_compressed_image_data
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_compressed_image_data_int16
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_compressed_image_data_float32
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_open_with_no_keywords
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_append
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_writeto_convenience
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_hdu_writeto
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_hdu_writeto_existing
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_datasum_only
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_open_update_mode_preserve_checksum
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_open_update_mode_update_checksum
+FAILED astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_overwrite_invalid
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_constructor_copies_header
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_open - A...
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_binary_table
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_ascii_table
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_endianness
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_column_endianness
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_recarray_to_bintablehdu
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_numpy_ndarray_to_bintablehdu
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_numpy_ndarray_to_bintablehdu_with_unicode
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_from_recarray
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_fitsrec
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_appending_a_column
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_adding_a_column
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_merge_tables
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_modify_column_attributes
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_mask_array
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_slice_a_row
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fits_record_len
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_add_data_by_rows
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_assign_multiple_rows_to_table
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_verify_data_references
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_with_ndarray
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_with_fits_rec
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_bin_table_hdu_constructor
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_constructor_name_arg
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_constructor_ver_arg
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_unicode_colname
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_bin_table_with_logical_array
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fits_rec_column_access
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_table_with_zero_width_column
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_string_column_padding
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_multi_dimensional_columns
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_bin_table_init_from_string_array_column
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_columns_with_truncating_tdim
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_string_array_round_trip
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_new_table_with_nd_column
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_mismatched_tform_and_tdim
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_tdim_of_size_one
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_slicing
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_array_slicing
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_array_broadcasting
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_array_slicing_readonly
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_dump_load_round_trip
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_dump_load_array_colums
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_load_guess_format
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_attribute_field_shadowing
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_table_from_bool_fields
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_table_from_bool_fields2
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_bool_column_update
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_missing_tnull
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_blank_field_zero
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_table_none
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_unncessary_table_load
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_table_from_columns_of_other_table
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_bintable_to_asciitable
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_pickle
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_zero_length_table
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_dim_column_byte_order_mismatch
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_fits_rec_from_existing
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_update_string_column_inplace
+FAILED astropy/io/fits/tests/test_table.py::TestTableFunctions::test_dump_clobber_vs_overwrite
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_variable_length_columns
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_extend_variable_length_array
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_variable_length_table_format_pd_from_object_array
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_variable_length_table_format_pd_from_list
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_variable_length_table_format_pa_from_object_array
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_variable_length_table_format_pa_from_list
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_getdata_vla
+FAILED astropy/io/fits/tests/test_table.py::TestVLATables::test_copy_vla - At...
+FAILED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_zero_precision_float_column
+FAILED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_pickle
+FAILED astropy/io/fits/tests/test_table.py::TestColumnFunctions::test_column_attribute_change_after_removal
+FAILED astropy/io/fits/tests/test_table.py::test_regression_5383 - AttributeE...
+FAILED astropy/io/fits/tests/test_table.py::test_table_to_hdu - AttributeErro...
+=================== 95 failed, 10 passed, 2 skipped in 1.24s ===================
+ 
+[astropy__astropy__1.3] [astropy__astropy-6938] Return Code: 1 
+
+>>>>> Some Tests Failed
+[astropy__astropy__1.3] [astropy__astropy-6938] Test script run successful 

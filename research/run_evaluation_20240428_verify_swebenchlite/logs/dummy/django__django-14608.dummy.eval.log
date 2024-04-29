@@ -1,0 +1,545 @@
+[django__django__4.0] [django__django-14608] Task Metadata:
+	- Instance ID: django__django-14608
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0
+	- Virtual Env.: django__django__4.0
+	- Evaluation Model: dummy 
+[django__django__4.0] [django__django-14608] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Command: git restore . 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Command: git reset HEAD . 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Command: git clean -fdx 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+Removing Django.egg-info/
+Removing django/__pycache__/
+Removing django/apps/__pycache__/
+Removing django/conf/__pycache__/
+Removing django/conf/locale/__pycache__/
+Removing django/contrib/__pycache__/
+Removing django/contrib/admin/__pycache__/
+Removing django/contrib/admin/migrations/__pycache__/
+Removing django/contrib/admin/templatetags/__pycache__/
+Removing django/contrib/admin/views/__pycache__/
+Removing django/contrib/auth/__pycache__/
+Removing django/contrib/auth/management/__pycache__/
+Removing django/contrib/contenttypes/__pycache__/
+Removing django/contrib/contenttypes/management/__pycache__/
+Removing django/contrib/messages/__pycache__/
+Removing django/contrib/messages/storage/__pycache__/
+Removing django/contrib/sessions/__pycache__/
+Removing django/contrib/sessions/management/__pycache__/
+Removing django/contrib/sites/__pycache__/
+Removing django/contrib/sites/migrations/__pycache__/
+Removing django/contrib/staticfiles/__pycache__/
+Removing django/contrib/staticfiles/management/__pycache__/
+Removing django/core/__pycache__/
+Removing django/core/cache/__pycache__/
+Removing django/core/cache/backends/__pycache__/
+Removing django/core/checks/__pycache__/
+Removing django/core/checks/compatibility/__pycache__/
+Removing django/core/checks/security/__pycache__/
+Removing django/core/files/__pycache__/
+Removing django/core/handlers/__pycache__/
+Removing django/core/mail/__pycache__/
+Removing django/core/management/__pycache__/
+Removing django/core/management/commands/__pycache__/
+Removing django/core/serializers/__pycache__/
+Removing django/core/servers/__pycache__/
+Removing django/db/__pycache__/
+Removing django/db/backends/__pycache__/
+Removing django/db/backends/base/__pycache__/
+Removing django/db/backends/sqlite3/__pycache__/
+Removing django/db/migrations/__pycache__/
+Removing django/db/migrations/operations/__pycache__/
+Removing django/db/models/__pycache__/
+Removing django/db/models/fields/__pycache__/
+Removing django/db/models/functions/__pycache__/
+Removing django/db/models/sql/__pycache__/
+Removing django/dispatch/__pycache__/
+Removing django/forms/__pycache__/
+Removing django/http/__pycache__/
+Removing django/middleware/__pycache__/
+Removing django/template/__pycache__/
+Removing django/template/backends/__pycache__/
+Removing django/templatetags/__pycache__/
+Removing django/test/__pycache__/
+Removing django/urls/__pycache__/
+Removing django/utils/__pycache__/
+Removing django/utils/translation/__pycache__/
+Removing django/views/__pycache__/
+Removing django/views/decorators/__pycache__/
+Removing django/views/generic/__pycache__/
+Removing new.txt
+Removing tests/__pycache__/
+Removing tests/invalid_models_tests/__pycache__/
+Removing tests/m2m_through/__pycache__/
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Command: git -c advice.detachedHead=false checkout 7f33c1e22dbc34a7afae7967783725b10f1f13b1 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+Previous HEAD position was 00ea883ef5 Fixed #32329 -- Made CsrfViewMiddleware catch more specific UnreadablePostError.
+HEAD is now at 7f33c1e22d Added note about zero timeout in cache settings docs.
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Reset task environment to 7f33c1e22dbc34a7afae7967783725b10f1f13b1 
+[django__django__4.0] [django__django-14608] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14608_pred_try.patch 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[django__django__4.0] [django__django-14608] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14608_pred_try.patch 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[django__django__4.0] [django__django-14608] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && python -m pip install -e . 
+[django__django__4.0] [django__django-14608] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && python -m pip install -e . 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[django__django__4.0] [django__django-14608] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from Django==4.0.dev20210714182821) (3.8.1)
+Requirement already satisfied: pytz in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from Django==4.0.dev20210714182821) (2024.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from Django==4.0.dev20210714182821) (0.5.0)
+Requirement already satisfied: typing-extensions>=4 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from asgiref>=3.3.2->Django==4.0.dev20210714182821) (4.11.0)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=Django-4.0.dev20210714182821-0.editable-py3-none-any.whl size=26137 sha256=ebedab76a1068215ee5aa6af57fd7936ced3711720734ee5c87b8860a827e2f0
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7te3utfk/wheels/30/79/99/6bbdadce009a7e403ea74c27792486435eec2e6ff7cbc66923
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.0.dev20210723111041
+    Uninstalling Django-4.0.dev20210723111041:
+      Successfully uninstalled Django-4.0.dev20210723111041
+Successfully installed Django-4.0.dev20210714182821
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Installation successful 
+
+>>>>> Init Succeeded
+[django__django__4.0] [django__django-14608] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14608_pred.patch 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[django__django__4.0] [django__django-14608] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14608_test.patch 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14608] Std. Output:
+Checking patch tests/admin_views/tests.py...
+Checking patch tests/forms_tests/tests/test_formsets.py...
+Applied patch tests/admin_views/tests.py cleanly.
+Applied patch tests/forms_tests/tests/test_formsets.py cleanly.
+ 
+[django__django__4.0] [django__django-14608] Return Code: 0 
+[django__django__4.0] [django__django-14608] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && ./tests/runtests.py --verbosity 2 admin_views.tests forms_tests.tests.test_formsets;
+[django__django__4.0] [django__django-14608] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && ./tests/runtests.py --verbosity 2 admin_views.tests forms_tests.tests.test_formsets 
+[django__django__4.0] [django__django-14608] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[django__django__4.0] [django__django-14608] Std. Output:
+activate successful
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Testing against Django installed in '/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django' with up to 20 processes
+Importing application admin_views
+Importing application forms_tests
+Found 417 test(s).
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: admin_views, auth, contenttypes, forms_tests, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Creating table admin_views_section
+    Creating table admin_views_article
+    Creating table admin_views_book
+    Creating table admin_views_promo
+    Creating table admin_views_chapter
+    Creating table admin_views_chapterxtra1
+    Creating table admin_views_chapterxtra2
+    Creating table admin_views_rowlevelchangepermissionmodel
+    Creating table admin_views_customarticle
+    Creating table admin_views_modelwithstringprimarykey
+    Creating table admin_views_color
+    Creating table admin_views_thing
+    Creating table admin_views_actor
+    Creating table admin_views_inquisition
+    Creating table admin_views_sketch
+    Creating table admin_views_character
+    Creating table admin_views_stumpjoke
+    Creating table admin_views_fabric
+    Creating table admin_views_person
+    Creating table admin_views_persona
+    Creating table admin_views_account
+    Creating table admin_views_fooaccount
+    Creating table admin_views_baraccount
+    Creating table admin_views_subscriber
+    Creating table admin_views_externalsubscriber
+    Creating table admin_views_oldsubscriber
+    Creating table admin_views_media
+    Creating table admin_views_podcast
+    Creating table admin_views_vodcast
+    Creating table admin_views_parent
+    Creating table admin_views_child
+    Creating table admin_views_pkchild
+    Creating table admin_views_toy
+    Creating table admin_views_emptymodel
+    Creating table admin_views_gallery
+    Creating table admin_views_picture
+    Creating table admin_views_language
+    Creating table admin_views_title
+    Creating table admin_views_titletranslation
+    Creating table admin_views_recommender
+    Creating table admin_views_recommendation
+    Creating table admin_views_collector
+    Creating table admin_views_widget
+    Creating table admin_views_doohickey
+    Creating table admin_views_grommet
+    Creating table admin_views_whatsit
+    Creating table admin_views_doodad
+    Creating table admin_views_fancydoodad
+    Creating table admin_views_category
+    Creating table admin_views_link
+    Creating table admin_views_prepopulatedpost
+    Creating table admin_views_prepopulatedsubpost
+    Creating table admin_views_post
+    Creating table admin_views_gadget
+    Creating table admin_views_villain
+    Creating table admin_views_supervillain
+    Creating table admin_views_funkytag
+    Creating table admin_views_plot
+    Creating table admin_views_plotdetails
+    Creating table admin_views_secrethideout
+    Creating table admin_views_supersecrethideout
+    Creating table admin_views_bookmark
+    Creating table admin_views_cyclicone
+    Creating table admin_views_cyclictwo
+    Creating table admin_views_topping
+    Creating table admin_views_pizza
+    Creating table admin_views_album
+    Creating table admin_views_song
+    Creating table admin_views_employee
+    Creating table admin_views_workhour
+    Creating table admin_views_manager
+    Creating table admin_views_bonus
+    Creating table admin_views_question
+    Creating table admin_views_answer
+    Creating table admin_views_reservation
+    Creating table admin_views_fooddelivery
+    Creating table admin_views_coverletter
+    Creating table admin_views_paper
+    Creating table admin_views_shortmessage
+    Creating table admin_views_telegram
+    Creating table admin_views_story
+    Creating table admin_views_otherstory
+    Creating table admin_views_complexsortedperson
+    Creating table admin_views_pluggablesearchperson
+    Creating table admin_views_prepopulatedpostlargeslug
+    Creating table admin_views_adminorderedfield
+    Creating table admin_views_adminorderedmodelmethod
+    Creating table admin_views_adminorderedadminmethod
+    Creating table admin_views_adminorderedcallable
+    Creating table admin_views_report
+    Creating table admin_views_mainprepopulated
+    Creating table admin_views_relatedprepopulated
+    Creating table admin_views_unorderedobject
+    Creating table admin_views_undeletableobject
+    Creating table admin_views_unchangeableobject
+    Creating table admin_views_usermessenger
+    Creating table admin_views_simple
+    Creating table admin_views_choice
+    Creating table admin_views_parentwithdependentchildren
+    Creating table admin_views_dependentchild
+    Creating table admin_views_filteredmanager
+    Creating table admin_views_emptymodelvisible
+    Creating table admin_views_emptymodelhidden
+    Creating table admin_views_emptymodelmixin
+    Creating table admin_views_state
+    Creating table admin_views_city
+    Creating table admin_views_restaurant
+    Creating table admin_views_worker
+    Creating table admin_views_referencedbyparent
+    Creating table admin_views_parentwithfk
+    Creating table admin_views_childofreferer
+    Creating table admin_views_inlinereferer
+    Creating table admin_views_referencedbyinline
+    Creating table admin_views_inlinereference
+    Creating table admin_views_recipe
+    Creating table admin_views_ingredient
+    Creating table admin_views_recipeingredient
+    Creating table admin_views_notreferenced
+    Creating table admin_views_explicitlyprovidedpk
+    Creating table admin_views_implicitlygeneratedpk
+    Creating table admin_views_referencedbygenrel
+    Creating table admin_views_genrelreference
+    Creating table admin_views_parentwithuuidpk
+    Creating table admin_views_relatedwithuuidpkmodel
+    Creating table admin_views_author
+    Creating table admin_views_authorship
+    Creating table admin_views_readonlyrelatedfield
+    Creating table forms_tests_boundarymodel
+    Creating table forms_tests_defaults
+    Creating table forms_tests_choicemodel
+    Creating table forms_tests_choiceoptionmodel
+    Creating table forms_tests_choicefieldmodel
+    Creating table forms_tests_optionalmultichoicemodel
+    Creating table forms_tests_filemodel
+    Creating table forms_tests_article
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Cloning test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+System check identified no issues (1 silenced).
+test_filters (admin_views.tests.AdminDocsTest) ... skipped 'no docutils installed.'
+test_tags (admin_views.tests.AdminDocsTest) ... skipped 'no docutils installed.'
+test_change_form_URL_has_correct_value (admin_views.tests.AdminViewFormUrlTest)
+change_view has form_url in response.context ... ok
+test_initial_data_can_be_overridden (admin_views.tests.AdminViewFormUrlTest)
+The behavior for setting initial form data can be overridden in the ... ok
+test_inline (admin_views.tests.AdminInheritedInlinesTest)
+Inline models which inherit from a common parent are correctly handled. ... ok
+test_known_url_missing_slash_redirects_login_if_not_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_known_url_missing_slash_redirects_with_slash_if_not_authenticated_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_known_url_redirects_login_if_not_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_known_url_redirects_login_if_not_authenticated_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_false (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_false_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true_force_script_name (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true_non_staff_user (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true_script_name (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true_unknown_url (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true_unknown_url_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_missing_slash_append_slash_true_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_non_admin_url_404_if_not_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_non_admin_url_shares_url_prefix (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_non_admin_url_shares_url_prefix_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_single_model_no_append_slash (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_unknown_url_404_if_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_unknown_url_404_if_authenticated_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_unknown_url_404_if_not_authenticated_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_unknown_url_redirects_login_if_not_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_unkown_url_without_trailing_slash_if_not_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_unkown_url_without_trailing_slash_if_not_authenticated_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_url_without_trailing_slash_if_not_authenticated (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_url_without_trailing_slash_if_not_authenticated_without_final_catch_all_view (admin_views.tests.AdminSiteFinalCatchAllPatternTests) ... ok
+test_client_logout_url_can_be_used_to_login (admin_views.tests.AdminViewLogoutTests) ... ok
+test_logout (admin_views.tests.AdminViewLogoutTests) ... ok
+test_should_be_able_to_edit_related_objects_on_add_view (admin_views.tests.AdminCustomSaveRelatedTests) ... ok
+test_should_be_able_to_edit_related_objects_on_change_view (admin_views.tests.AdminCustomSaveRelatedTests) ... ok
+test_should_be_able_to_edit_related_objects_on_changelist_view (admin_views.tests.AdminCustomSaveRelatedTests) ... ok
+test_form_has_multipart_enctype (admin_views.tests.AdminInlineFileUploadTest) ... ok
+test_inline_file_upload_edit_validation_error_post (admin_views.tests.AdminInlineFileUploadTest)
+Inline file uploads correctly display prior data (#10002). ... ok
+test_message_debug (admin_views.tests.AdminUserMessageTest) ... ok
+test_message_error (admin_views.tests.AdminUserMessageTest) ... ok
+test_message_extra_tags (admin_views.tests.AdminUserMessageTest) ... ok
+test_message_info (admin_views.tests.AdminUserMessageTest) ... ok
+test_message_success (admin_views.tests.AdminUserMessageTest) ... ok
+test_message_warning (admin_views.tests.AdminUserMessageTest) ... ok
+test_js_minified_only_if_debug_is_false (admin_views.tests.AdminJavaScriptTest)
+The minified versions of the JS files are only used when DEBUG is False. ... ok
+test_no_standard_modeladmin_urls (admin_views.tests.AdminViewsNoUrlTest)
+Admin index views don't break when user's ModelAdmin removes standard urls ... ok
+test_add (admin_views.tests.AdminViewProxyModelPermissionsTests) ... ok
+test_change (admin_views.tests.AdminViewProxyModelPermissionsTests) ... ok
+test_delete (admin_views.tests.AdminViewProxyModelPermissionsTests) ... ok
+test_view (admin_views.tests.AdminViewProxyModelPermissionsTests) ... ok
+test_unicode_delete (admin_views.tests.AdminViewUnicodeTest)
+The delete_view handles non-ASCII characters ... ok
+test_unicode_edit (admin_views.tests.AdminViewUnicodeTest)
+A test to ensure that POST on edit_view handles non-ASCII characters. ... ok
+test_add_view_form_and_formsets_run_validation (admin_views.tests.AdminViewOnSiteTests)
+Issue #20522 ... ok
+test_callable (admin_views.tests.AdminViewOnSiteTests)
+The right link is displayed if view_on_site is a callable ... ok
+test_change_view_form_and_formsets_run_validation (admin_views.tests.AdminViewOnSiteTests)
+Issue #20522 ... ok
+test_check (admin_views.tests.AdminViewOnSiteTests)
+The view_on_site value is either a boolean or a callable ... ok
+test_false (admin_views.tests.AdminViewOnSiteTests)
+The 'View on site' button is not displayed if view_on_site is False ... ok
+test_missing_get_absolute_url (admin_views.tests.AdminViewOnSiteTests)
+None is returned if model doesn't have get_absolute_url ... ok
+test_true (admin_views.tests.AdminViewOnSiteTests)
+The default behavior is followed if view_on_site is True ... ok
+test_custom_admin_site_app_index_view_and_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_index_view_and_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_login_form (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_login_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_logout_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_password_change_done_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_password_change_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_password_change_with_extra_context (admin_views.tests.CustomModelAdminTest) ... ok
+test_custom_admin_site_view (admin_views.tests.CustomModelAdminTest) ... ok
+test_pwd_change_custom_template (admin_views.tests.CustomModelAdminTest) ... ok
+test_explicitly_provided_pk (admin_views.tests.GetFormsetsWithInlinesArgumentTest) ... ok
+test_implicitly_generated_pk (admin_views.tests.GetFormsetsWithInlinesArgumentTest) ... ok
+test_change_view_history_link (admin_views.tests.AdminViewStringPrimaryKeyTest)
+Object history button link should work and contain the pk value quoted. ... ok
+test_changelist_to_changeform_link (admin_views.tests.AdminViewStringPrimaryKeyTest)
+Link to the changeform of the object in changelist should use reverse() and be quoted -- #18072 ... ok
+test_deleteconfirmation_link (admin_views.tests.AdminViewStringPrimaryKeyTest)
+The link from the delete confirmation page referring back to the changeform of the object should be quoted ... ok
+test_get_change_view (admin_views.tests.AdminViewStringPrimaryKeyTest)
+Retrieving the object using urlencoded form of primary key should work ... ok
+test_get_history_view (admin_views.tests.AdminViewStringPrimaryKeyTest)
+Retrieving the history for an object using urlencoded form of primary ... ok
+test_recentactions_link (admin_views.tests.AdminViewStringPrimaryKeyTest)
+The link from the recent actions list referring to the changeform of the object should be quoted ... ok
+test_redirect_on_add_view_continue_button (admin_views.tests.AdminViewStringPrimaryKeyTest)
+As soon as an object is added using "Save and continue editing" ... ok
+test_shortcut_view_with_escaping (admin_views.tests.AdminViewStringPrimaryKeyTest)
+'View on site should' work properly with char fields ... ok
+test_url_conflicts_with_add (admin_views.tests.AdminViewStringPrimaryKeyTest)
+A model with a primary key that ends with add or is `add` should be visible ... ok
+test_url_conflicts_with_delete (admin_views.tests.AdminViewStringPrimaryKeyTest)
+A model with a primary key that ends with delete should be visible ... ok
+test_url_conflicts_with_history (admin_views.tests.AdminViewStringPrimaryKeyTest)
+A model with a primary key that ends with history should be visible ... ok
+test_callable (admin_views.tests.InlineAdminViewOnSiteTest)
+The right link is displayed if view_on_site is a callable ... ok
+test_false (admin_views.tests.InlineAdminViewOnSiteTest)
+The 'View on site' button is not displayed if view_on_site is False ... ok
+test_true (admin_views.tests.InlineAdminViewOnSiteTest)
+The 'View on site' button is displayed if view_on_site is True ... ok
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 385, in _run_subsuite
+    result = runner.run(subsuite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 332, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/suite.py", line 122, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/testcases.py", line 239, in __call__
+    self._setup_and_call(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/testcases.py", line 275, in _setup_and_call
+    super().__call__(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/case.py", line 651, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/case.py", line 600, in run
+    self._feedErrorsToResult(result, outcome.errors)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/case.py", line 517, in _feedErrorsToResult
+    result.addFailure(test, exc_info)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 262, in addFailure
+    self.check_picklable(test, err)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 194, in check_picklable
+    self._confirm_picklable(err)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 168, in _confirm_picklable
+    pickle.loads(pickle.dumps(obj))
+TypeError: cannot pickle 'traceback' object
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/./tests/runtests.py", line 659, in <module>
+    failures = django_tests(
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/./tests/runtests.py", line 385, in django_tests
+    failures = test_runner.run_tests(test_labels)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 889, in run_tests
+    result = self.run_suite(suite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 816, in run_suite
+    return runner.run(suite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/runner.py", line 184, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 450, in run
+    subsuite_index, events = test_results.next(timeout=0.1)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/multiprocessing/pool.py", line 870, in next
+    raise value
+TypeError: cannot pickle 'traceback' object
+Exception ignored in: <function Pool.__del__ at 0x7f6576859430>
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/multiprocessing/pool.py", line 265, in __del__
+ResourceWarning: unclosed running multiprocessing pool <multiprocessing.pool.Pool state=RUN pool_size=20>
+ 
+[django__django__4.0] [django__django-14608] Return Code: 1 
+
+>>>>> Some Tests Failed
+[django__django__4.0] [django__django-14608] Test script run successful 

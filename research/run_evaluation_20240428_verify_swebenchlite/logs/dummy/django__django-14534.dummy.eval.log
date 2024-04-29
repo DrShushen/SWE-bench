@@ -1,0 +1,248 @@
+[django__django__4.0] [django__django-14534] Task Metadata:
+	- Instance ID: django__django-14534
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0
+	- Virtual Env.: django__django__4.0
+	- Evaluation Model: dummy 
+[django__django__4.0] [django__django-14534] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Command: git restore . 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Command: git reset HEAD . 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Command: git clean -fdx 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+Removing Django.egg-info/
+Removing django/__pycache__/
+Removing django/apps/__pycache__/
+Removing django/conf/__pycache__/
+Removing django/conf/locale/__pycache__/
+Removing django/conf/locale/en/__pycache__/
+Removing django/conf/urls/__pycache__/
+Removing django/contrib/__pycache__/
+Removing django/contrib/admin/__pycache__/
+Removing django/contrib/admin/migrations/__pycache__/
+Removing django/contrib/admin/templatetags/__pycache__/
+Removing django/contrib/admin/views/__pycache__/
+Removing django/contrib/admindocs/__pycache__/
+Removing django/contrib/auth/__pycache__/
+Removing django/contrib/auth/management/__pycache__/
+Removing django/contrib/contenttypes/__pycache__/
+Removing django/contrib/contenttypes/management/__pycache__/
+Removing django/contrib/messages/__pycache__/
+Removing django/contrib/messages/storage/__pycache__/
+Removing django/contrib/sessions/__pycache__/
+Removing django/contrib/sessions/backends/__pycache__/
+Removing django/contrib/sessions/management/__pycache__/
+Removing django/contrib/sites/__pycache__/
+Removing django/contrib/sites/migrations/__pycache__/
+Removing django/contrib/staticfiles/__pycache__/
+Removing django/contrib/staticfiles/management/__pycache__/
+Removing django/core/__pycache__/
+Removing django/core/cache/__pycache__/
+Removing django/core/cache/backends/__pycache__/
+Removing django/core/checks/__pycache__/
+Removing django/core/checks/compatibility/__pycache__/
+Removing django/core/checks/security/__pycache__/
+Removing django/core/files/__pycache__/
+Removing django/core/handlers/__pycache__/
+Removing django/core/mail/__pycache__/
+Removing django/core/mail/backends/__pycache__/
+Removing django/core/management/__pycache__/
+Removing django/core/management/commands/__pycache__/
+Removing django/core/serializers/__pycache__/
+Removing django/core/servers/__pycache__/
+Removing django/db/__pycache__/
+Removing django/db/backends/__pycache__/
+Removing django/db/backends/base/__pycache__/
+Removing django/db/backends/sqlite3/__pycache__/
+Removing django/db/migrations/__pycache__/
+Removing django/db/migrations/operations/__pycache__/
+Removing django/db/models/__pycache__/
+Removing django/db/models/fields/__pycache__/
+Removing django/db/models/functions/__pycache__/
+Removing django/db/models/sql/__pycache__/
+Removing django/dispatch/__pycache__/
+Removing django/forms/__pycache__/
+Removing django/http/__pycache__/
+Removing django/middleware/__pycache__/
+Removing django/template/__pycache__/
+Removing django/template/backends/__pycache__/
+Removing django/template/loaders/__pycache__/
+Removing django/templatetags/__pycache__/
+Removing django/test/__pycache__/
+Removing django/urls/__pycache__/
+Removing django/utils/__pycache__/
+Removing django/utils/translation/__pycache__/
+Removing django/views/__pycache__/
+Removing django/views/decorators/__pycache__/
+Removing django/views/generic/__pycache__/
+Removing new.txt
+Removing tests/__pycache__/
+Removing tests/admin_views/__pycache__/
+Removing tests/forms_tests/__pycache__/
+Removing tests/forms_tests/tests/__pycache__/
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Command: git -c advice.detachedHead=false checkout 910ecd1b8df7678f45c3d507dde6bcb1faafa243 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+Previous HEAD position was 7f33c1e22d Added note about zero timeout in cache settings docs.
+HEAD is now at 910ecd1b8d Fixed #29063 -- Fixed migrate crash when specifying a name of partially applied squashed migrations.
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Reset task environment to 910ecd1b8df7678f45c3d507dde6bcb1faafa243 
+[django__django__4.0] [django__django-14534] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14534_pred_try.patch 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[django__django__4.0] [django__django-14534] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14534_pred_try.patch 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[django__django__4.0] [django__django-14534] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && python -m pip install -e . 
+[django__django__4.0] [django__django-14534] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && python -m pip install -e . 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[django__django__4.0] [django__django-14534] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from Django==4.0.dev20210804075732) (3.8.1)
+Requirement already satisfied: pytz in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from Django==4.0.dev20210804075732) (2024.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from Django==4.0.dev20210804075732) (0.5.0)
+Requirement already satisfied: typing-extensions>=4 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/site-packages (from asgiref>=3.3.2->Django==4.0.dev20210804075732) (4.11.0)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=Django-4.0.dev20210804075732-0.editable-py3-none-any.whl size=26504 sha256=3589dfd73359cde4b136ab5109e4c2a783ce45c08a7e8aba2f5cbefd3dc950ff
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ugbm7ngb/wheels/30/79/99/6bbdadce009a7e403ea74c27792486435eec2e6ff7cbc66923
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.0.dev20210714182821
+    Uninstalling Django-4.0.dev20210714182821:
+      Successfully uninstalled Django-4.0.dev20210714182821
+Successfully installed Django-4.0.dev20210804075732
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Installation successful 
+
+>>>>> Init Succeeded
+[django__django__4.0] [django__django-14534] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14534_pred.patch 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[django__django__4.0] [django__django-14534] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/temp_django__django-14534_test.patch 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__4.0] [django__django-14534] Std. Output:
+Checking patch tests/forms_tests/tests/test_forms.py...
+Applied patch tests/forms_tests/tests/test_forms.py cleanly.
+ 
+[django__django__4.0] [django__django-14534] Return Code: 0 
+[django__django__4.0] [django__django-14534] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && ./tests/runtests.py --verbosity 2 forms_tests.tests.test_forms;
+[django__django__4.0] [django__django-14534] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin/activate django__django__4.0 && echo 'activate successful' && ./tests/runtests.py --verbosity 2 forms_tests.tests.test_forms 
+[django__django__4.0] [django__django-14534] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[django__django__4.0] [django__django-14534] Std. Output:
+activate successful
+Testing against Django installed in '/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django' with up to 20 processes
+Importing application forms_tests
+Found 121 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_attribute_class (forms_tests.tests.test_forms.RendererTests) ... ok
+test_attribute_instance (forms_tests.tests.test_forms.RendererTests) ... ok
+test_attribute_override (forms_tests.tests.test_forms.RendererTests) ... ok
+test_default (forms_tests.tests.test_forms.RendererTests) ... ok
+test_kwarg_class (forms_tests.tests.test_forms.RendererTests) ... ok
+test_kwarg_instance (forms_tests.tests.test_forms.RendererTests) ... ok
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 392, in _run_subsuite
+    result = runner.run(subsuite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 335, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/suite.py", line 122, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/testcases.py", line 239, in __call__
+    self._setup_and_call(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/testcases.py", line 275, in _setup_and_call
+    super().__call__(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/case.py", line 651, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/case.py", line 600, in run
+    self._feedErrorsToResult(result, outcome.errors)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/case.py", line 517, in _feedErrorsToResult
+    result.addFailure(test, exc_info)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 265, in addFailure
+    self.check_picklable(test, err)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 197, in check_picklable
+    self._confirm_picklable(err)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 171, in _confirm_picklable
+    pickle.loads(pickle.dumps(obj))
+TypeError: cannot pickle 'traceback' object
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/./tests/runtests.py", line 668, in <module>
+    failures = django_tests(
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/./tests/runtests.py", line 386, in django_tests
+    failures = test_runner.run_tests(test_labels)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 912, in run_tests
+    result = self.run_suite(suite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 836, in run_suite
+    return runner.run(suite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/runner.py", line 184, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpb72y2cv4/django__django__4.0/django/test/runner.py", line 457, in run
+    subsuite_index, events = test_results.next(timeout=0.1)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/multiprocessing/pool.py", line 870, in next
+    raise value
+TypeError: cannot pickle 'traceback' object
+Exception ignored in: <function Pool.__del__ at 0x7c1078739c10>
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/4.0/tmpvpy9c656/miniconda3/lib/python3.9/multiprocessing/pool.py", line 265, in __del__
+ResourceWarning: unclosed running multiprocessing pool <multiprocessing.pool.Pool state=RUN pool_size=2>
+ 
+[django__django__4.0] [django__django-14534] Return Code: 1 
+
+>>>>> Some Tests Failed
+[django__django__4.0] [django__django-14534] Test script run successful 

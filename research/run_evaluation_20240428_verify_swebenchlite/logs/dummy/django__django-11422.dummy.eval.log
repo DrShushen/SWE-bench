@@ -1,0 +1,2020 @@
+[django__django__3.0] [django__django-11422] Task Metadata:
+	- Instance ID: django__django-11422
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0
+	- Virtual Env.: django__django__3.0
+	- Evaluation Model: dummy 
+[django__django__3.0] [django__django-11422] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Command: git restore . 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Command: git reset HEAD . 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Command: git clean -fdx 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+Removing Django.egg-info/
+Removing django/__pycache__/
+Removing django/apps/__pycache__/
+Removing django/conf/__pycache__/
+Removing django/conf/locale/__pycache__/
+Removing django/conf/urls/__pycache__/
+Removing django/contrib/__pycache__/
+Removing django/contrib/admin/__pycache__/
+Removing django/contrib/admin/templatetags/__pycache__/
+Removing django/contrib/admin/views/__pycache__/
+Removing django/contrib/auth/__pycache__/
+Removing django/contrib/auth/management/__pycache__/
+Removing django/contrib/contenttypes/__pycache__/
+Removing django/contrib/contenttypes/management/__pycache__/
+Removing django/contrib/messages/__pycache__/
+Removing django/contrib/messages/storage/__pycache__/
+Removing django/contrib/sessions/__pycache__/
+Removing django/contrib/sessions/backends/__pycache__/
+Removing django/contrib/sites/__pycache__/
+Removing django/contrib/staticfiles/__pycache__/
+Removing django/core/__pycache__/
+Removing django/core/cache/__pycache__/
+Removing django/core/cache/backends/__pycache__/
+Removing django/core/checks/__pycache__/
+Removing django/core/checks/security/__pycache__/
+Removing django/core/files/__pycache__/
+Removing django/core/handlers/__pycache__/
+Removing django/core/mail/__pycache__/
+Removing django/core/mail/backends/__pycache__/
+Removing django/core/management/__pycache__/
+Removing django/core/management/commands/__pycache__/
+Removing django/core/serializers/__pycache__/
+Removing django/core/servers/__pycache__/
+Removing django/db/__pycache__/
+Removing django/db/backends/__pycache__/
+Removing django/db/backends/base/__pycache__/
+Removing django/db/backends/sqlite3/__pycache__/
+Removing django/db/migrations/__pycache__/
+Removing django/db/migrations/operations/__pycache__/
+Removing django/db/models/__pycache__/
+Removing django/db/models/fields/__pycache__/
+Removing django/db/models/functions/__pycache__/
+Removing django/db/models/sql/__pycache__/
+Removing django/dispatch/__pycache__/
+Removing django/forms/__pycache__/
+Removing django/http/__pycache__/
+Removing django/middleware/__pycache__/
+Removing django/template/__pycache__/
+Removing django/template/backends/__pycache__/
+Removing django/templatetags/__pycache__/
+Removing django/test/__pycache__/
+Removing django/urls/__pycache__/
+Removing django/utils/__pycache__/
+Removing django/utils/translation/__pycache__/
+Removing django/views/__pycache__/
+Removing django/views/decorators/__pycache__/
+Removing django/views/generic/__pycache__/
+Removing new.txt
+Removing tests/__pycache__/
+Removing tests/utils_tests/__pycache__/
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Command: git -c advice.detachedHead=false checkout df46b329e0900e9e4dc1d60816c1dce6dfc1094e 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+Previous HEAD position was 60dc957a82 Removed unnecessary code in Model.__init__().
+HEAD is now at df46b329e0 Refs #30485 -- Avoided unnecessary instance checks in urlencode.
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Reset task environment to df46b329e0900e9e4dc1d60816c1dce6dfc1094e 
+[django__django__3.0] [django__django-11422] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/temp_django__django-11422_pred_try.patch 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[django__django__3.0] [django__django-11422] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/temp_django__django-11422_pred_try.patch 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[django__django__3.0] [django__django-11422] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin/activate django__django__3.0 && echo 'activate successful' && python -m pip install -e . 
+[django__django__3.0] [django__django-11422] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin/activate django__django__3.0 && echo 'activate successful' && python -m pip install -e . 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[django__django__3.0] [django__django-11422] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: pytz in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-packages (from Django==3.0.dev20190527200014) (2024.1)
+Requirement already satisfied: sqlparse in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-packages (from Django==3.0.dev20190527200014) (0.5.0)
+Installing collected packages: Django
+  Running setup.py develop for Django
+Successfully installed Django-3.0.dev20190527200014
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Installation successful 
+
+>>>>> Init Succeeded
+[django__django__3.0] [django__django-11422] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/temp_django__django-11422_pred.patch 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[django__django__3.0] [django__django-11422] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/temp_django__django-11422_test.patch 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[django__django__3.0] [django__django-11422] Std. Output:
+Checking patch tests/utils_tests/test_autoreload.py...
+Applied patch tests/utils_tests/test_autoreload.py cleanly.
+ 
+[django__django__3.0] [django__django-11422] Return Code: 0 
+[django__django__3.0] [django__django-11422] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin/activate django__django__3.0 && echo 'activate successful' && ./tests/runtests.py --verbosity 2 utils_tests.test_autoreload;
+[django__django__3.0] [django__django-11422] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin/activate django__django__3.0 && echo 'activate successful' && ./tests/runtests.py --verbosity 2 utils_tests.test_autoreload 
+[django__django__3.0] [django__django-11422] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "LANG": "en_US.UTF-8", "LC_ALL": "en_US.UTF-8"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[django__django__3.0] [django__django-11422] Std. Output:
+activate successful
+Testing against Django installed in '/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django' with up to 20 processes
+Importing application utils_tests
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_common_roots (utils_tests.test_autoreload.TestCommonRoots) ... ok
+test_check_availability (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_check_availability_lower_version (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_check_server_status (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_check_server_status_raises_error (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_file (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_glob (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_glob_recursive (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_multiple_globs (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_multiple_recursive_globs (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_nested_glob_recursive (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_overlapping_glob_recursive (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_overlapping_globs (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_pywatchman_not_available (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_setting_timeout_from_environment_variable (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_update_watches_raises_exceptions (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_watch_glob_ignores_non_existing_directories_two_levels (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_watch_glob_multiple_patterns (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_watch_glob_uses_existing_parent_directories (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_watched_roots_contains_directory_globs (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_watched_roots_contains_files (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_watched_roots_contains_sys_path (utils_tests.test_autoreload.WatchmanReloaderTests) ... skipped 'Watchman unavailable: pywatchman not installed.'
+test_no_exception (utils_tests.test_autoreload.TestRaiseLastException) ... ok
+test_raises_exception (utils_tests.test_autoreload.TestRaiseLastException) ... ok
+test_watchman_available (utils_tests.test_autoreload.GetReloaderTests) ... ok
+test_watchman_unavailable (utils_tests.test_autoreload.GetReloaderTests) ... ok
+test_manage_py (utils_tests.test_autoreload.RestartWithReloaderTests) ... ok
+test_python_m_django (utils_tests.test_autoreload.RestartWithReloaderTests) ... ok
+test_mutates_error_files (utils_tests.test_autoreload.TestCheckErrors) ... ok
+test_calls_start_django (utils_tests.test_autoreload.RunWithReloaderTests) ... ok
+test_calls_sys_exit (utils_tests.test_autoreload.RunWithReloaderTests) ... ok
+test_swallows_keyboard_interrupt (utils_tests.test_autoreload.RunWithReloaderTests) ... ok
+test_sys_paths_absolute (utils_tests.test_autoreload.TestSysPathDirectories) ... ok
+test_sys_paths_directories (utils_tests.test_autoreload.TestSysPathDirectories) ... ok
+test_sys_paths_non_existing (utils_tests.test_autoreload.TestSysPathDirectories) ... ok
+test_sys_paths_with_directories (utils_tests.test_autoreload.TestSysPathDirectories) ... ok
+test_check_errors_called (utils_tests.test_autoreload.StartDjangoTests) ... ok
+test_echo_on_called (utils_tests.test_autoreload.StartDjangoTests) ... ok
+test_starts_thread_with_args (utils_tests.test_autoreload.StartDjangoTests) ... ok
+test_watchman_becomes_unavailable (utils_tests.test_autoreload.StartDjangoTests) ... ok
+test_run_loop_catches_stopiteration (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_run_loop_stop_and_return (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_wait_for_apps_ready_checks_for_exception (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_wait_for_apps_ready_without_exception (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_watch_files_with_recursive_glob (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_watch_with_glob (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_watch_with_single_file (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_watch_without_absolute (utils_tests.test_autoreload.BaseReloaderTests) ... ok
+test_file (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_glob (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_glob_recursive (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_multiple_globs (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_multiple_recursive_globs (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_nested_glob_recursive (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_overlapping_glob_recursive (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_overlapping_globs (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_snapshot_files_ignores_missing_files (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_snapshot_files_updates (utils_tests.test_autoreload.StatReloaderTests) ... ok
+test_snapshot_files_with_duplicates (utils_tests.test_autoreload.StatReloaderTests) ... ok
+
+
+test_main_module_is_resolved (utils_tests.test_autoreload.TestIterModulesAndFiles) failed:
+
+    AssertionError("PosixPath('/home/user/SWE-bench/research/run_evaluation
+    _20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/djan
+    go__django__3.0/tests/runtests.py') not found in
+    [PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verif
+    y_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0
+    /django/views/generic/base.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp379csh1k/miniconda3/lib/python3.9/_compat_pickle.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/forms/__init__.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/forms/renderers.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/handlers/__init__.py'), PosixPath('/home/user/SWE-bench/res
+    earch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/
+    3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/sqlparse/__init__.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/tests/utils_tests/test_autoreload.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.
+    0/django/db/models/functions/datetime.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/utils/baseconv.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/xml/dom/NodeFilter.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/views/generic/detail.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/importlib/_common.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/contrib/admin/templatetags/admin_mo
+    dify.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2024
+    0428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__d
+    jango__3.0/django/contrib/contenttypes/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/conf/__init__.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/db/models/manager.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/ctypes/_endian.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/django/forms/models.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/extern/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/packaging/specifiers.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/xml/dom/minidom.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/cgi.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/copy.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/abc.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_
+    20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/djang
+    o__django__3.0/django/db/models/functions/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/errors.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp5w5y212w/django__django__3.0/django/contrib/admin/templat
+    etags/admin_list.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/unittest/util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/base/client.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp5w5y212w/django__django__3.0/django/core/cache/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_opcode.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/apps/config.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379c
+    sh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/jaraco/functools.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/weakref.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/site-packages/setuptools/windows_support.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/__init__.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y
+    212w/django__django__3.0/django/core/files/images.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/importlib/util.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/django/db/models/sql/constants.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/wsgiref/handlers.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/core/handlers/base.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/logging/config.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/django/core/mail/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/config/expand.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/discovery.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/html/__init__.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379c
+    sh1k/miniconda3/lib/python3.9/site-packages/setuptools/extension.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_lzma.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/backends/__init__.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/_distutils_hack/__init__.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/asyncio/format_helpers.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/token.py'), PosixPath('/home/user/SWE-bench/research/run_evalua
+    tion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/
+    miniconda3/lib/python3.9/asyncio/base_events.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    tests/utils_tests/utils.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/contrib/messages/middleware.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/operations/special.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/sqlite3/__init__.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/wsgiref/util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/__init__.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/django/contrib/auth/backends.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/templatetags/__init__.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/posixpath.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_blake2.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/lookups.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_ctypes.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/fields/related.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/uuid.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/encodings/__init__.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_ssl.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/unix_events.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/debug.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/dir_util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/auth/validators.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp5w5y212w/django__django__3.0/django/core/files/storage.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/loader_tags.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/db/models/aggregates.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/middleware/__init__.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/importlib_metadata/_itertools.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/unicodedata.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/base/introspection.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp379csh1k/miniconda3/lib/python3.9/json/encoder.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/wsgiref/simple_server.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp379csh1k/miniconda3/lib/python3.9/contextvars.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/engine/filter_stack.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/importlib/abc.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y
+    212w/django__django__3.0/django/contrib/auth/checks.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/policy.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y2
+    12w/django__django__3.0/django/template/backends/base.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/sslproto.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp3
+    79csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_bisect.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/messages/constants.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp5w5y212w/django__django__3.0/django/urls/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/filters.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/contrib/auth/signals.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/fnmatch.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/d
+    jango__django__3.0/django/db/models/fields/reverse_related.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/sqlite3/base.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp5w5y212w/django__django__3.0/django/db/models/query_utils.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.
+    0/django/views/generic/dates.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/multiprocessing/synchronize.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/struct.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k
+    /miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/errors.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/sqlparse/exceptions.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/contrib/sessions/__init__.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/_collections_abc.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp5w5y212w/django__django__3.0/django/db/backends/sqlite3/client.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/auth/management/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/linecache.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k
+    /miniconda3/lib/python3.9/wsgiref/headers.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/checks/security/__init__.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/loader.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/sessions/models.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp5w5y212w/django__django__3.0/django/test/testcases.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/header.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y2
+    12w/django__django__3.0/django/core/checks/caches.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/library.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p379csh1k/miniconda3/lib/python3.9/multiprocessing/connection.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/query.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    379csh1k/miniconda3/lib/python3.9/decimal.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/packaging/markers.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/urls/base.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/subprocess.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp5w5y212w/django__django__3.0/django/utils/timesince.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/multiprocessing/sharedctypes.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/extension.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/auth/password_validation.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/hashlib.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/asyncio/threads.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_distutils/command/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/utils.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/core/checks/urls.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/forms/widgets.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/utils/module_loading.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/http/server.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/_bootlocale.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/sqlite3/operations.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/contrib/sessions/bas
+    e_session.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation
+    _20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mini
+    conda3/lib/python3.9/site-packages/setuptools/_path.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/encodings/latin_1.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/contrib/sites/apps.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/dis.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_
+    20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/minic
+    onda3/lib/python3.9/site-packages/setuptools/_distutils/config.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/signals.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/importlib/machinery.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/packaging/utils.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/views/generic/edit.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/core/checks/security/base.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/files/uploadedfile.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/sqlparse/filters/reindent.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp379csh1k/miniconda3/lib/python3.9/sre_constants.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/copyreg.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/packaging/_manylinux.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/engine/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/tree.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/queue.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_struct.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/smartif.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/views/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/xml/dom/xmlbuilder.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p379csh1k/miniconda3/lib/python3.9/asyncio/futures.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/decorators.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/apps/registry.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/functions/mixins.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/html/entities.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/config/setupcfg.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/regex_helper.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/contrib/admin/decorators.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/numberformat.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_sha512.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/packaging/_musllinux.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/ssl.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_
+    20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/minic
+    onda3/lib/python3.9/getpass.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/utils/log.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/tokens.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/core/files/utils.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/xml/dom/domreg.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/asyncio/tasks.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_socket.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/generator.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/re.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/config/_apply_pyprojecttoml.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/gettext.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/email/mime/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_distutils/spawn.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/sre_parse.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w
+    /django__django__3.0/django/core/checks/security/csrf.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/_encoded_words.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/unittest/case.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/management/color.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/binascii.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/staticfiles/apps.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/types.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/selector_events.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/core.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp5w5y212w/django__django__3.0/django/db/backends/signals.py
+    '), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ve
+    rify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/p
+    ython3.9/lib-dynload/_csv.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/__init__.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/core/servers/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_contextvars.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/sessions/middleware.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/contrib/sessions/except
+    ions.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2024
+    0428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__d
+    jango__3.0/django/utils/autoreload.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/core/serializers/python
+    .py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428
+    _verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__djang
+    o__3.0/django/views/decorators/csrf.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/depends.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/concurrent/futures/__init__.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pyt
+    hon3.9/sysconfig.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/socket.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/forms/boundfield.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/migration.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/dep_util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/middleware/common.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/sqlite3/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/ipv6.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/asyncio/events.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/test/signals.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/django/core/management/commands/check.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/mimetypes.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k
+    /miniconda3/lib/python3.9/email/mime/base.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/_parseaddr.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/db/transaction.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/reprlib.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/site-packages/sqlparse/filters/others.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/_markupbase.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y21
+    2w/django__django__3.0/django/utils/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/files/uploadhandler.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp5w5y212w/django__django__3.0/django/utils/inspect.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/statistics.py'), PosixPath('/home/user/SWE-bench/research/run_eval
+    uation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212
+    w/django__django__3.0/django/db/backends/base/base.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/operations/base.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp5w5y212w/django__django__3.0/django/core/checks/__init__.
+    py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_
+    verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib
+    /python3.9/email/feedparser.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/importlib_metadata/_adapters.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/importlib_metadata/_text.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/ast.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_
+    20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/djang
+    o__django__3.0/django/core/mail/message.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/base.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/views/decorators/cache.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/queues.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/email/errors.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation
+    _20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mini
+    conda3/lib/python3.9/asyncio/log.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp5w5y212w/django__django__3.0/django/test/selenium.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/secrets.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/d
+    jango__django__3.0/django/utils/crypto.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp5w5y212w/django__django__3.0/django/contrib/staticfiles
+    /checks.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2
+    0240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django
+    __django__3.0/django/core/checks/translation.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/sql/datastructures.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/email/mime/multipart.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/multiprocessing/queues.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/pytz/exceptions.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/multiprocessing/reduction.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/__init__.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/termios.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/message.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y
+    212w/django__django__3.0/django/contrib/auth/apps.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/coroutines.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/contrib/sites/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/signal.py'), PosixPath('/home/user/SWE-bench/research/run_evaluati
+    on_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mi
+    niconda3/lib/python3.9/tempfile.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/email/charset.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/sessions/backends/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/wsgi.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y21
+    2w/django__django__3.0/django/utils/functional.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/files/move.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/contrib/sites/models.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/version.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/site-packages/setuptools/monkey.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/sql.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/mock.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/staggered.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/test/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/mmap.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/sites.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/db/backends/base/operations.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/site-packages/setuptools/_vendor/packaging/_elffile.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_hashlib.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/msvc.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/utils/duration.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/pkgutil.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/email/parser.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/_sitebuiltins.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/handlers/wsgi.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/xml/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/urls/conf.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y21
+    2w/django__django__3.0/django/core/management/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/json/scanner.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/operator.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/jaraco/text/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/urllib/__init__.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/os.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/contrib/sites/managemen
+    t.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2024042
+    8_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/l
+    ib/python3.9/multiprocessing/popen_fork.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    tests/test_sqlite.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/packaging/_parser.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/sessions/backends/base.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/core/files/locks.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/io.py'), PosixPath('/home/user/SWE-bench/research/run_evaluatio
+    n_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/dja
+    ngo__django__3.0/django/views/debug.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp5w5y212w/django__django__3.0/django/template/backends/djan
+    go.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_202404
+    28_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/
+    lib/python3.9/genericpath.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/bisect.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/filters/right_margin.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/multiprocessing/__init__.py'), PosixPath('/home/user/SWE-bench/res
+    earch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/
+    3.0/tmp5w5y212w/django__django__3.0/django/urls/resolvers.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/options.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp5w5y212w/django__django__3.0/django/test/runner.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/fields/related_lookups.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/test/client.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y
+    212w/django__django__3.0/django/db/models/fields/mixins.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/array.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/jaraco/context.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/_weakrefset.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/asyncio/trsock.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/management/base.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/db/models/functions/comparison
+    .py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428
+    _verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/li
+    b/python3.9/site-packages/setuptools/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/locks.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y
+    212w/django__django__3.0/django/db/models/constants.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/importlib/resources.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/site-
+    packages/sqlparse/filters/output.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp5w5y212w/django__django__3.0/django/contrib/admin/exceptions.
+    py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_
+    verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django
+    __3.0/django/core/paginator.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/db/backends/sqlite3/schema.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/py
+    thon3.9/calendar.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y21
+    2w/django__django__3.0/django/http/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/textwrap.py'), PosixPath('/home/user/SWE-bench/research/run_evalua
+    tion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/
+    django__django__3.0/django/template/context.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/apps.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/template/exceptions.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/mime/nonmultipart.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/json/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/sqlite3/dbapi2.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/site-
+    packages/sqlparse/filters/tokens.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/grp.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/filters/aligned_indent.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/argparse.py'), PosixPath('/home/user/SWE-bench/research/run_evalua
+    tion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/
+    miniconda3/lib/python3.9/site-packages/setuptools/_distutils/log.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/staticfiles/finders.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/contrib/admin/templatet
+    ags/admin_urls.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k
+    /miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/command/bdist.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/py_compile.py'), PosixPath('/home/user/SWE-bench/research/run_eval
+    uation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1
+    k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/dist.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/concurrent/__init__.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pyt
+    hon3.9/shutil.py'), PosixPath('/home/user/SWE-bench/research/run_evalua
+    tion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/
+    django__django__3.0/django/db/models/expressions.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/templatetags/tz.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/db/migrations/operations/utils.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pyt
+    hon3.9/datetime.py'), PosixPath('/home/user/SWE-bench/research/run_eval
+    uation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1
+    k/miniconda3/lib/python3.9/base64.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/urllib/error.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-
+    packages/setuptools/_vendor/importlib_metadata/_functools.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/forms/formsets.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp3
+    79csh1k/miniconda3/lib/python3.9/site-packages/pytz/lazy.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/checks/registry.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/conf/global_settings.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/version.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp379csh1k/miniconda3/lib/python3.9/glob.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/auth/__init__.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/__init__.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/xml/dom/minicompat.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pyt
+    hon3.9/inspect.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w
+    /django__django__3.0/django/middleware/csrf.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/mime/text.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/site-packages/pytz/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/views/static.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/tests/utils_tests/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/contenttypes/apps.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/filelist.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/getopt.py'), PosixPath('/home/user/SWE-bench/research/run_evaluati
+    on_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mi
+    niconda3/lib/python3.9/traceback.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp5w5y212w/django__django__3.0/django/contrib/auth/models.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/functions/window.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/threading.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/uu.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2
+    0240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django
+    __django__3.0/django/forms/utils.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp5w5y212w/django__django__3.0/django/core/validators.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/dispatch/__init__.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/site-packages/sqlparse/utils.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/serializers/json.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/http/cookie.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    tests/utils_tests/models.py'), PosixPath('/home/user/SWE-bench/research
+    /run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/t
+    mp379csh1k/miniconda3/lib/python3.9/email/quoprimime.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_posixsubprocess.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/http/multipartparser.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/utils/dateparse.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/templatetags/cache.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/multiprocessing/util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/command/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/collections/__init__.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/functools.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/checks.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/db/migrations/exceptions.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/bz2.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_
+    20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/minic
+    onda3/lib/python3.9/asyncio/exceptions.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp5w5y212w/django__django__3.0/django/forms/forms.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/pytz/tzfile.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/sqlparse/filters/__init__.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp5w5y212w/django__django__3.0/django/db/models/fields/__init
+    __.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_202404
+    28_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/
+    lib/python3.9/site-
+    packages/setuptools/_vendor/packaging/_tokenizer.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/logging.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/templatetags/l10n.py
+    '), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ve
+    rify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__
+    3.0/django/core/checks/database.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp5w5y212w/django__django__3.0/django/utils/translation/reloader
+    .py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428
+    _verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/li
+    b/python3.9/site-packages/sqlparse/lexer.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_entry_points.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/middleware/cache.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/views/i18n.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/cache/utils.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p379csh1k/miniconda3/lib/python3.9/multiprocessing/process.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/multiprocessing/context.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/contrib/messages/storage/__in
+    it__.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2024
+    0428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda
+    3/lib/python3.9/site-
+    packages/setuptools/_vendor/importlib_metadata/_py39compat.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/utils.py'), PosixPath('/home/user/SWE-bench/research/run_eval
+    uation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1
+    k/miniconda3/lib/python3.9/contextlib.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/contrib/auth/hashers
+    .py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428
+    _verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__djang
+    o__3.0/django/template/defaultfilters.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/warnings.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/utils/deconstruct.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/signing.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/_log.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp5w5y212w/django__django__3.0/django/utils/_os.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/functions/text.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/packaging/tags.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/mail/utils.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/contrib/contenttypes/checks.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-
+    packages/setuptools/_vendor/importlib_metadata/_collections.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/views/generic/list.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/utils/translation/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/string.py'), PosixPath('/home/user/SWE-bench/research/run_evaluati
+    on_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mi
+    niconda3/lib/python3.9/stat.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/hmac.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/ddl_references.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/sre_compile.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/actions.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/contrib/messages/api.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/checks/templates.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/db/backends/base/validation.p
+    y'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_v
+    erify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django_
+    _3.0/django/db/backends/sqlite3/creation.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/tokenize.py'), PosixPath('/home/user/SWE-bench/research/run_evalua
+    tion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/
+    miniconda3/lib/python3.9/email/utils.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/version.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp5w5y212w/django__django__3.0/django/utils/formats.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/xml/dom/__init__.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/utils/termcolors.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/zlib.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/checks/security/sessions.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/email/_header_value_par
+    ser.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240
+    428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3
+    /lib/python3.9/configparser.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/db/backends/sqlite3/features.p
+    y'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_v
+    erify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django_
+    _3.0/django/contrib/admin/__init__.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp379csh1k/miniconda3/lib/python3.9/locale.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/cli.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp5w5y212w/django__django__3.0/django/db/models/constraints.py')
+    , PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_veri
+    fy_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.
+    0/django/template/__init__.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/contrib/auth/middleware.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/base_futures.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/keyword.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/models.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/fancy_getopt.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/sql/subqueries.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp5w5y212w/django__django__3.0/django/contrib/admin/templatetags
+    /log.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_2024
+    0428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__d
+    jango__3.0/django/core/cache/backends/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/codecs.py'), PosixPath('/home/user/SWE-bench/research/run_evaluati
+    on_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/dj
+    ango__django__3.0/django/db/backends/base/schema.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_distutils/archive_util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/operations/fields.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_datetime.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/runners.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/urls/utils.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_multiprocessing.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/base_subprocess.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/fractions.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/zipfile.py'), PosixPath('/home/user/SWE-bench/research/run_evaluat
+    ion_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/m
+    iniconda3/lib/python3.9/asyncio/protocols.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_distutils/util.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/itercompat.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/core/files/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/html/parser.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/config/__init__.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_statistics.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/dist.py'), PosixPath('/home/user/SWE-benc
+    h/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dj
+    ango/3.0/tmp379csh1k/miniconda3/lib/python3.9/difflib.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/zipp.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/templatetags/static.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/forms/fields.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/serializers/__init__.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp5w5y212w/django__django__3.0/django/utils/http.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/packaging/requirements.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/base.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/contrib/contenttypes/models.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/__init__.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/packaging/version.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/defaulttags.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/multiprocessing/heap.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/more_itertools/recipes.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/cache/backends/base.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/_distutils_hack/override.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp5w5y212w/django__django__3.0/django/utils/html.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/engine.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/contrib/contenttypes/fields.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/apps/__init__.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/utils/topological_sort.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/deletion.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/pathlib.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/views/main.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/suite.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/__init__.py'), PosixPath('/home/user/SWE-bench/res
+    earch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/
+    3.0/tmp5w5y212w/django__django__3.0/django/template/response.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/random.py'), PosixPath('/home/user/SWE-bench/research/run_evaluati
+    on_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mi
+    niconda3/lib/python3.9/asyncio/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_heapq.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/base64mime.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/utils/hashable.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_sqlite3.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/collections/abc.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/site-packages/setuptools/_imp.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/logging/__init__.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/db/models/indexes.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/staticfiles/__init__.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp379csh1k/miniconda3/lib/python3.9/pickle.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/templatetags/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/files/base.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/templatetags/i18n.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/selectors.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k
+    /miniconda3/lib/python3.9/unittest/main.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/iterators.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/pprint.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_vendor/importlib_metadata/_compat.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/config/pyprojecttoml.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/encoding.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/db/models/sql/query.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/serializers/base.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/typing.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_normalization.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/subprocess.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p379csh1k/miniconda3/lib/python3.9/unittest/result.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_distutils/cmd.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/messages/apps.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/tests/urls.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/test/html.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh
+    1k/miniconda3/lib/python3.9/urllib/request.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/management/sql.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp379csh1k/miniconda3/lib/python3.9/ipaddress.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/encoders.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/site-packages/sqlparse/formatter.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_itertools.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/cache.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379c
+    sh1k/miniconda3/lib/python3.9/urllib/parse.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/exceptions.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    5w5y212w/django__django__3.0/django/utils/translation/trans_real.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/fields/files.py'), PosixPath('/home/user/SWE-bench/res
+    earch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/
+    3.0/tmp5w5y212w/django__django__3.0/django/utils/deprecation.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/multiprocessing/pool.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/contrib/admin/templatetags/base.
+    py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_
+    verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib
+    /python3.9/urllib/response.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp379csh1k/miniconda3/lib/python3.9/ctypes/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/datastructures.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp5w5y212w/django__django__3.0/django/utils/lorem_ipsum.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/ntpath.py'), PosixPath('/home/user/SWE-bench/research/run_evaluati
+    on_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mi
+    niconda3/lib/python3.9/site-
+    packages/sqlparse/engine/statement_splitter.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/options.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp5w5y212w/django__django__3.0/django/db/backends/base/creation.py'
+    ), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ver
+    ify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3
+    .0/django/__init__.py'), PosixPath('/home/user/SWE-bench/research/run_e
+    valuation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y
+    212w/django__django__3.0/django/db/models/utils.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/math.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/gzip.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation
+    _20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/mini
+    conda3/lib/python3.9/site-packages/sqlparse/engine/grouping.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/helpers.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/unittest/signals.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/handlers/exception.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp379csh1k/miniconda3/lib/python3.9/logging/handlers.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/base/features.py'), PosixPath('/home/user/SWE-bench/
+    research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djan
+    go/3.0/tmp5w5y212w/django__django__3.0/django/utils/dates.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/asyncio/streams.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/enum.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_decimal.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/sqlparse/keywords.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/http/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/widgets.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/email/mime/message.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_json.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/http/request.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/site-packages/pytz/tzinfo.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/functions/math.py'), PosixPath('/home/user/SWE-bench/r
+    esearch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/djang
+    o/3.0/tmp379csh1k/miniconda3/lib/python3.9/asyncio/base_tasks.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/admin/views/autocomplete.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/checks/messages.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_queue.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/sql/__init__.py'), PosixPath('/home/user/SWE-bench/res
+    earch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/
+    3.0/tmp5w5y212w/django__django__3.0/django/views/decorators/__init__.py
+    '), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_ve
+    rify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/p
+    ython3.9/heapq.py'), PosixPath('/home/user/SWE-bench/research/run_evalu
+    ation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k
+    /miniconda3/lib/python3.9/dataclasses.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/http/response.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/select.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/_compression.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/lib-dynload/_bz2.cpython-39-x86_64-linux-
+    gnu.so'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240
+    428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3
+    /lib/python3.9/site-
+    packages/setuptools/_vendor/more_itertools/more.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_reqs.py'), PosixPath('/home/user/SWE-ben
+    ch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/d
+    jango/3.0/tmp5w5y212w/django__django__3.0/django/utils/safestring.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/concurrent/futures/_base.py'), PosixPath('/home/user/SWE-bench/res
+    earch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/
+    3.0/tmp5w5y212w/django__django__3.0/django/contrib/admin/views/__init__
+    .py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428
+    _verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/li
+    b/python3.9/asyncio/transports.py'), PosixPath('/home/user/SWE-bench/re
+    search/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django
+    /3.0/tmp379csh1k/miniconda3/lib/python3.9/platform.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/template/utils.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5
+    w5y212w/django__django__3.0/django/db/models/fields/related_descriptors
+    .py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428
+    _verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/li
+    b/python3.9/numbers.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5
+    y212w/django__django__3.0/django/urls/converters.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/signals.py'), PosixPath('/home/user/SWE-bench/research/run_
+    evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379
+    csh1k/miniconda3/lib/python3.9/quopri.py'), PosixPath('/home/user/SWE-b
+    ench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy
+    /django/3.0/tmp5w5y212w/django__django__3.0/django/db/models/fields/pro
+    xy.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_202404
+    28_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__dja
+    ngo__3.0/django/db/backends/utils.py'), PosixPath('/home/user/SWE-bench
+    /research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/dja
+    ngo/3.0/tmp379csh1k/miniconda3/lib/python3.9/socketserver.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/packaging/_structures.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/dateformat.py'), PosixPath('/home/user/SWE-bench/research/
+    run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tm
+    p5w5y212w/django__django__3.0/django/utils/text.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/unittest/__init__.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_pickle.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/http/client.py'), PosixPath('/home/user/SWE-bench/research/run_eva
+    luation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y21
+    2w/django__django__3.0/django/template/loader.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_importlib.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/backends/sqlite3/introspection.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/contenttypes/management/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/conf/locale/__init__.py'), PosixPath('/home/user/SWE-bench/resea
+    rch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.
+    0/tmp379csh1k/miniconda3/lib/python3.9/asyncio/constants.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/models/sql/where.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/core/files/temp.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/json/decoder.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y2
+    12w/django__django__3.0/django/contrib/auth/base_user.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/test/utils.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/importlib/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/encodings/utf_8.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/contrib/messages/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/conf/urls/__init__.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp5w5y212w/django__django__3.0/django/views/generic/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/dispatch/dispatcher.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/utils/datetime_safe.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/urls/exceptions.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    379csh1k/miniconda3/lib/python3.9/encodings/aliases.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/utils/timezone.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp3
+    79csh1k/miniconda3/lib/python3.9/csv.py'), PosixPath('/home/user/SWE-be
+    nch/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/
+    django/3.0/tmp379csh1k/miniconda3/lib/python3.9/lib-
+    dynload/_random.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/state.py'), PosixPath('/home/user/SWE-bench/resear
+    ch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0
+    /tmp5w5y212w/django__django__3.0/django/db/backends/base/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/operations/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/fcntl.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_asyncio.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/lib-dynload/_uuid.cpython-39-x86_64-linux-gnu.so'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/_policybase.py'), PosixPath('/home/user/SWE-bench/research/r
+    un_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp
+    379csh1k/miniconda3/lib/python3.9/wsgiref/__init__.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/core/__init__.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w
+    5y212w/django__django__3.0/django/core/servers/basehttp.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/site-packages/setuptools/_vendor/importlib_metadata/_meta.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/unittest/runner.py'), PosixPath('/home/user/SWE-bench/research/run
+    _evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp37
+    9csh1k/miniconda3/lib/python3.9/warnings.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/db/migrations/operations/models.py'), PosixPath('/home/user/SWE-
+    bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dumm
+    y/django/3.0/tmp5w5y212w/django__django__3.0/django/contrib/staticfiles
+    /utils.py'), PosixPath('/home/user/SWE-bench/research/run_evaluation_20
+    240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django_
+    _django__3.0/django/core/checks/model_checks.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/views/defaults.py'), PosixPath('/home/user/SWE-bench/research/ru
+    n_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp3
+    79csh1k/miniconda3/lib/python3.9/opcode.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/
+    django/contrib/sessions/apps.py'), PosixPath('/home/user/SWE-bench/rese
+    arch/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3
+    .0/tmp379csh1k/miniconda3/lib/python3.9/email/headerregistry.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/email/contentmanager.py'), PosixPath('/home/user/SWE-bench/researc
+    h/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/
+    tmp379csh1k/miniconda3/lib/python3.9/lzma.py'),
+    PosixPath('/home/user/SWE-bench/research/run_evaluation_20240428_verify
+    _swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/pytho
+    n3.9/http/cookies.py'), PosixPath('/home/user/SWE-bench/research/run_ev
+    aluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379cs
+    h1k/miniconda3/lib/python3.9/site-
+    packages/setuptools/_distutils/file_util.py')]")
+
+Unfortunately, tracebacks cannot be pickled, making it impossible for the
+parallel test runner to handle this exception cleanly.
+
+In order to see the traceback, you should install tblib:
+
+    python -m pip install tblib
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 310, in _run_subsuite
+    result = runner.run(subsuite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 257, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/suite.py", line 122, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/testcases.py", line 271, in __call__
+    super().__call__(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/case.py", line 651, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/case.py", line 600, in run
+    self._feedErrorsToResult(result, outcome.errors)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/case.py", line 517, in _feedErrorsToResult
+    result.addFailure(test, exc_info)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 203, in addFailure
+    self.check_picklable(test, err)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 131, in check_picklable
+    self._confirm_picklable(err)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 105, in _confirm_picklable
+    pickle.loads(pickle.dumps(obj))
+TypeError: cannot pickle 'traceback' object
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/./tests/runtests.py", line 521, in <module>
+    failures = django_tests(
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/./tests/runtests.py", line 297, in django_tests
+    failures = test_runner.run_tests(
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 652, in run_tests
+    result = self.run_suite(suite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 594, in run_suite
+    return runner.run(suite)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/runner.py", line 184, in run
+    test(result)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp5w5y212w/django__django__3.0/django/test/runner.py", line 374, in run
+    subsuite_index, events = test_results.next(timeout=0.1)
+  File "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/django/3.0/tmp379csh1k/miniconda3/lib/python3.9/multiprocessing/pool.py", line 870, in next
+    raise value
+TypeError: cannot pickle 'traceback' object
+
+ 
+[django__django__3.0] [django__django-11422] Return Code: 1 
+
+>>>>> Some Tests Failed
+[django__django__3.0] [django__django-11422] Test script run successful 

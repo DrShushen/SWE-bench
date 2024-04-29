@@ -1,0 +1,138 @@
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Task Metadata:
+	- Instance ID: pylint-dev__pylint-6506
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/pylint-dev__pylint__2.14
+	- Virtual Env.: pylint-dev__pylint__2.14
+	- Evaluation Model: dummy 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git restore . 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git reset HEAD . 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git clean -fdx 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git -c advice.detachedHead=false checkout 0a4204fd7555cfedd43f43017c94d24ef48244a5 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+HEAD is now at 0a4204fd7 Allow not yet published extensions links in ``linkcheck`` (#6499)
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Reset task environment to 0a4204fd7555cfedd43f43017c94d24ef48244a5 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/temp_pylint-dev__pylint-6506_pred_try.patch 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/temp_pylint-dev__pylint-6506_pred_try.patch 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin/activate pylint-dev__pylint__2.14 && echo 'activate successful' && pip install -e . 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin/activate pylint-dev__pylint__2.14 && echo 'activate successful' && pip install -e . 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/pylint-dev__pylint__2.14
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting dill>=0.2 (from pylint==2.14.0.dev0)
+  Using cached dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+Collecting platformdirs>=2.2.0 (from pylint==2.14.0.dev0)
+  Using cached platformdirs-4.2.1-py3-none-any.whl.metadata (11 kB)
+Collecting astroid<=2.12.0-dev0,>=2.11.4 (from pylint==2.14.0.dev0)
+  Downloading astroid-2.11.7-py3-none-any.whl.metadata (4.7 kB)
+Collecting isort<6,>=4.2.5 (from pylint==2.14.0.dev0)
+  Downloading isort-5.13.2-py3-none-any.whl.metadata (12 kB)
+Collecting mccabe<0.8,>=0.6 (from pylint==2.14.0.dev0)
+  Using cached mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+Collecting tomlkit>=0.10.1 (from pylint==2.14.0.dev0)
+  Using cached tomlkit-0.12.4-py3-none-any.whl.metadata (2.7 kB)
+Collecting typing-extensions>=3.10.0 (from pylint==2.14.0.dev0)
+  Using cached typing_extensions-4.11.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting tomli>=1.1.0 (from pylint==2.14.0.dev0)
+  Using cached tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+Collecting lazy-object-proxy>=1.4.0 (from astroid<=2.12.0-dev0,>=2.11.4->pylint==2.14.0.dev0)
+  Using cached lazy_object_proxy-1.10.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.8 kB)
+Collecting wrapt<2,>=1.11 (from astroid<=2.12.0-dev0,>=2.11.4->pylint==2.14.0.dev0)
+  Using cached wrapt-1.16.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Requirement already satisfied: setuptools>=20.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.4->pylint==2.14.0.dev0) (68.0.0)
+Downloading astroid-2.11.7-py3-none-any.whl (251 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 251.2/251.2 kB 2.3 MB/s eta 0:00:00
+Using cached dill-0.3.8-py3-none-any.whl (116 kB)
+Downloading isort-5.13.2-py3-none-any.whl (92 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.3/92.3 kB 13.2 MB/s eta 0:00:00
+Using cached mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Using cached platformdirs-4.2.1-py3-none-any.whl (17 kB)
+Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Using cached tomlkit-0.12.4-py3-none-any.whl (37 kB)
+Using cached typing_extensions-4.11.0-py3-none-any.whl (34 kB)
+Using cached lazy_object_proxy-1.10.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (67 kB)
+Using cached wrapt-1.16.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (80 kB)
+Installing collected packages: wrapt, typing-extensions, tomlkit, tomli, platformdirs, mccabe, lazy-object-proxy, isort, dill, astroid, pylint
+  Running setup.py develop for pylint
+Successfully installed astroid-2.11.7 dill-0.3.8 isort-5.13.2 lazy-object-proxy-1.10.0 mccabe-0.7.0 platformdirs-4.2.1 pylint-2.14.0.dev0 tomli-2.0.1 tomlkit-0.12.4 typing-extensions-4.11.0 wrapt-1.16.0
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Installation successful 
+
+>>>>> Init Succeeded
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/temp_pylint-dev__pylint-6506_pred.patch 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git restore tests/config/test_config.py 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/temp_pylint-dev__pylint-6506_test.patch 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+Checking patch tests/config/test_config.py...
+Applied patch tests/config/test_config.py cleanly.
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 0 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin/activate pylint-dev__pylint__2.14 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider tests/config/test_config.py;
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin/activate pylint-dev__pylint__2.14 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider tests/config/test_config.py 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmpwl_grsc3/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Std. Output:
+activate successful
+/home/user/miniconda/lib/python3.9/site-packages/_pytest/config/__init__.py:331: PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown.
+Plugin: helpconfig, Hook: pytest_cmdline_parse
+ConftestImportFailure: ModuleNotFoundError: No module named 'pylint' (from /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/pylint-dev__pylint__2.14/tests/conftest.py)
+For more information see https://pluggy.readthedocs.io/en/stable/api_reference.html#pluggy.PluggyTeardownRaisedWarning
+  config = pluginmanager.hook.pytest_cmdline_parse(
+ImportError while loading conftest '/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.14/tmphwsmu4eo/pylint-dev__pylint__2.14/tests/conftest.py'.
+tests/conftest.py:14: in <module>
+    from pylint import checkers
+E   ModuleNotFoundError: No module named 'pylint'
+ 
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Return Code: 4 
+
+>>>>> Some Tests Failed
+[pylint-dev__pylint__2.14] [pylint-dev__pylint-6506] Test script run successful 

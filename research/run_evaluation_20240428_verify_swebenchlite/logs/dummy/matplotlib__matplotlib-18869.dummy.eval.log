@@ -1,0 +1,143 @@
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Task Metadata:
+	- Instance ID: matplotlib__matplotlib-18869
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpmuriaw_l/matplotlib__matplotlib__3.3
+	- Virtual Env.: matplotlib__matplotlib__3.3
+	- Evaluation Model: dummy 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git restore . 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git reset HEAD . 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git clean -fdx 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git -c advice.detachedHead=false checkout b7d05919865fc0c37a0164cf467d5d5513bd0ede 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+HEAD is now at b7d0591986 Merge pull request #20498 from timhoffm/doc-release-guide-release-notes
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Reset task environment to b7d05919865fc0c37a0164cf467d5d5513bd0ede 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpmuriaw_l/temp_matplotlib__matplotlib-18869_pred_try.patch 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpmuriaw_l/temp_matplotlib__matplotlib-18869_pred_try.patch 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin/activate matplotlib__matplotlib__3.3 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin/activate matplotlib__matplotlib__3.3 && echo 'activate successful' && python -m pip install -e . 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpmuriaw_l/matplotlib__matplotlib__3.3
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cycler>=0.10 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting kiwisolver>=1.0.1 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.4 kB)
+Collecting numpy>=1.17 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Requirement already satisfied: packaging>=20.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/lib/python3.9/site-packages (from matplotlib==3.5.0.dev1324+gb7d0591986) (23.1)
+Collecting pillow>=6.2.0 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached pillow-10.3.0-cp39-cp39-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+Collecting pyparsing>=2.2.1 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+Collecting python-dateutil>=2.7 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting setuptools_scm>=4 (from matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached setuptools_scm-8.0.4-py3-none-any.whl.metadata (6.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: setuptools in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/lib/python3.9/site-packages (from setuptools_scm>=4->matplotlib==3.5.0.dev1324+gb7d0591986) (68.0.0)
+Collecting typing-extensions (from setuptools_scm>=4->matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached typing_extensions-4.11.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting tomli>=1 (from setuptools_scm>=4->matplotlib==3.5.0.dev1324+gb7d0591986)
+  Using cached tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+Using cached numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+Using cached pillow-10.3.0-cp39-cp39-manylinux_2_28_x86_64.whl (4.5 MB)
+Using cached pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached setuptools_scm-8.0.4-py3-none-any.whl (42 kB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Using cached typing_extensions-4.11.0-py3-none-any.whl (34 kB)
+Installing collected packages: typing-extensions, tomli, six, pyparsing, pillow, numpy, kiwisolver, cycler, setuptools_scm, python-dateutil, matplotlib
+  Running setup.py develop for matplotlib
+Successfully installed cycler-0.12.1 kiwisolver-1.4.5 matplotlib-3.5.0.dev1324+gb7d0591986 numpy-1.26.4 pillow-10.3.0 pyparsing-3.1.2 python-dateutil-2.9.0.post0 setuptools_scm-8.0.4 six-1.16.0 tomli-2.0.1 typing-extensions-4.11.0
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Installation successful 
+
+>>>>> Init Succeeded
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpmuriaw_l/temp_matplotlib__matplotlib-18869_pred.patch 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git restore lib/matplotlib/tests/test_matplotlib.py 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpmuriaw_l/temp_matplotlib__matplotlib-18869_test.patch 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+Checking patch lib/matplotlib/tests/test_matplotlib.py...
+Applied patch lib/matplotlib/tests/test_matplotlib.py cleanly.
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 0 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin/activate matplotlib__matplotlib__3.3 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_matplotlib.py;
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin/activate matplotlib__matplotlib__3.3 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider lib/matplotlib/tests/test_matplotlib.py 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/matplotlib/3.3/tmpgdihpjqi/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Std. Output:
+activate successful
+============================= test session starts ==============================
+collected 8 items
+
+lib/matplotlib/tests/test_matplotlib.py EEEEEEEE                         [100%]
+
+=========================== short test summary info ============================
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_parse_to_version_info[3.5.0-version_tuple0]
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_parse_to_version_info[3.5.0rc2-version_tuple1]
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_parse_to_version_info[3.5.0.dev820+g6768ef8c4c-version_tuple2]
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_parse_to_version_info[3.5.0.post820+g6768ef8c4c-version_tuple3]
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_tmpconfigdir_warning - Im...
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_importable_with_no_home
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_use_doc_standard_backends
+ERROR lib/matplotlib/tests/test_matplotlib.py::test_importable_with__OO - Imp...
+============================== 8 errors in 0.55s ===============================
+ 
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Return Code: 1 
+
+>>>>> Some Tests Failed
+[matplotlib__matplotlib__3.3] [matplotlib__matplotlib-18869] Test script run successful 

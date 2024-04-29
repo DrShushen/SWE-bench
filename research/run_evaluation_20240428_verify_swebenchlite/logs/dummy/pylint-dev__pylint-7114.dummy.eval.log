@@ -1,0 +1,131 @@
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Task Metadata:
+	- Instance ID: pylint-dev__pylint-7114
+	- Testbed: /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/pylint-dev__pylint__2.15
+	- Virtual Env.: pylint-dev__pylint__2.15
+	- Evaluation Model: dummy 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git ls-files --ignored --exclude-standard -o -z | xargs -0 -r rm -rf 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git restore . 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git reset HEAD . 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git clean -fdx 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+Removing new.txt
+Removing pylint.egg-info/
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git -c advice.detachedHead=false checkout 397c1703e8ae6349d33f7b99f45b2ccaf581e666 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+Previous HEAD position was d597f2529 Remove ``setup.py`` (#7249)
+HEAD is now at 397c1703e Don't emit ``super-init-not-called`` for abstract ``__init__`` methods (#7227)
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Reset task environment to 397c1703e8ae6349d33f7b99f45b2ccaf581e666 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/temp_pylint-dev__pylint-7114_pred_try.patch 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Apply patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git apply -v -R /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/temp_pylint-dev__pylint-7114_pred_try.patch 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Revert patch successful (pred_try) 
+>>>>> Applied Patch (pred_try)
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Running installation command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin/activate pylint-dev__pylint__2.15 && echo 'activate successful' && pip install -e . 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin/activate pylint-dev__pylint__2.15 && echo 'activate successful' && pip install -e . 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+activate successful
+Obtaining file:///home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/pylint-dev__pylint__2.15
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: dill>=0.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (0.3.8)
+Requirement already satisfied: platformdirs>=2.2.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (4.2.1)
+Requirement already satisfied: astroid<=2.14.0-dev0,>=2.12.2 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (2.13.5)
+Requirement already satisfied: isort<6,>=4.2.5 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (5.13.2)
+Requirement already satisfied: mccabe<0.8,>=0.6 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (0.7.0)
+Requirement already satisfied: tomlkit>=0.10.1 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (0.12.4)
+Requirement already satisfied: typing-extensions>=3.10.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (4.11.0)
+Requirement already satisfied: tomli>=1.1.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from pylint==2.15.0a0) (2.0.1)
+Requirement already satisfied: lazy-object-proxy>=1.4.0 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from astroid<=2.14.0-dev0,>=2.12.2->pylint==2.15.0a0) (1.10.0)
+Requirement already satisfied: wrapt<2,>=1.11 in /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/lib/python3.9/site-packages (from astroid<=2.14.0-dev0,>=2.12.2->pylint==2.15.0a0) (1.16.0)
+Installing collected packages: pylint
+  Running setup.py develop for pylint
+Successfully installed pylint-2.15.0a0
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Installation successful 
+
+>>>>> Init Succeeded
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/temp_pylint-dev__pylint-7114_pred.patch 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+Checking patch new.txt...
+Applied patch new.txt cleanly.
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Apply patch successful (pred) 
+>>>>> Applied Patch (pred)
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git restore tests/checkers/unittest_imports.py 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git restore tests/lint/unittest_lint.py 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": true, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: git apply -v /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/temp_pylint-dev__pylint-7114_test.patch 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": false, "shell": false, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+Checking patch tests/checkers/unittest_imports.py...
+Checking patch tests/lint/unittest_lint.py...
+Applied patch tests/checkers/unittest_imports.py cleanly.
+Applied patch tests/lint/unittest_lint.py cleanly.
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 0 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Apply patch successful (test) 
+>>>>> Applied Patch (test)
+Test Script: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin/activate pylint-dev__pylint__2.15 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider tests/checkers/unittest_imports.py tests/lint/unittest_lint.py;
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Command: . /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin/activate pylint-dev__pylint__2.15 && echo 'activate successful' && pytest --no-header -rA --tb=no -p no:cacheprovider tests/checkers/unittest_imports.py tests/lint/unittest_lint.py 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Subprocess args: {"check": false, "shell": true, "capture_output": false, "text": true, "env": {"CONDA_PKGS_DIRS": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/cache", "PATH": "/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmp_26fr9ps/miniconda3/bin:/home/user/miniconda/bin:/home/user/miniconda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"}, "stdout": -1, "stderr": -2, "timeout": 900} 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Std. Output:
+activate successful
+/home/user/miniconda/lib/python3.9/site-packages/_pytest/config/__init__.py:331: PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown.
+Plugin: helpconfig, Hook: pytest_cmdline_parse
+ConftestImportFailure: ModuleNotFoundError: No module named 'pylint' (from /home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/pylint-dev__pylint__2.15/tests/conftest.py)
+For more information see https://pluggy.readthedocs.io/en/stable/api_reference.html#pluggy.PluggyTeardownRaisedWarning
+  config = pluginmanager.hook.pytest_cmdline_parse(
+ImportError while loading conftest '/home/user/SWE-bench/research/run_evaluation_20240428_verify_swebenchlite/testbed/dummy/pylint/2.15/tmpppy3_7we/pylint-dev__pylint__2.15/tests/conftest.py'.
+tests/conftest.py:14: in <module>
+    from pylint import checkers
+E   ModuleNotFoundError: No module named 'pylint'
+ 
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Return Code: 4 
+
+>>>>> Some Tests Failed
+[pylint-dev__pylint__2.15] [pylint-dev__pylint-7114] Test script run successful 
