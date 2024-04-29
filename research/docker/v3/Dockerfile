@@ -63,8 +63,6 @@ run ~/.tmux/plugins/tpm/tpm' > ~/.tmux.conf
 # Prepare the conda environment.
 # Get some dependencies, then install SWE-Bench in editable mode.
 RUN eval "$(~/miniconda/bin/conda shell.bash hook)" && conda init && source ~/.bashrc && \
-    conda install -n base python=3.9 -y && \
-    conda run -n base pip install -U pip && \
     conda run -n base pip install \
         datasets tenacity anthropic openai tiktoken beautifulsoup4 chardet ghapi GitPython python-dotenv \
         requests rich "transformers>=4.34.0" tqdm
