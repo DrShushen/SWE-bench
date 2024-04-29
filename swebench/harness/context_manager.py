@@ -521,7 +521,7 @@ class TaskEnvContextManager:
 
         # --------------------------------------------------------------------------------------------------------------
         # HACK: Ensure that conda bin is in PATH - for reasons unclear, under some circumstances it is not.
-        FORCED_CONDA_BIN = "/home/user/miniconda/bin/"
+        FORCED_CONDA_BIN = self.conda_path + "/bin"
         PATH = os.environ.get("PATH", "")
         if FORCED_CONDA_BIN not in PATH:
             PATH = f"{FORCED_CONDA_BIN}:{PATH}"
